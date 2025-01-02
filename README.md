@@ -27,30 +27,22 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 	3.	Install dependencies:
 Ensure you have pip installed. Then run:
-
+   ```bash
 pip install -r requirements.txt
+   ```
 
 Note: If requirements.txt is not present, please refer to the project’s documentation for dependency information.
 
-Usage
+### Usage
+
 	1.	Data Preparation:
 Prepare your dataset according to the guidelines provided in the docs directory. Ensure that data is cleaned and formatted correctly for analysis.
-	2.	Running Simulations:
-Execute the main script to start simulations:
-
-python main.py
-
-Note: Replace main.py with the actual entry-point script of the project.
 
 	3.	Analyzing Results:
-Results will be stored in the results directory. Use the provided analysis tools to interpret the data:
+Results will be stored in the results directory. Use the provided analysis tools to interpret the data.
 
-python analyze.py results/output_file
-
-Note: Replace analyze.py and results/output_file with the actual analysis script and output file names.
-
-Project Structure
-
+### Project Structure
+   ```bash
 truth-deception-architecture/
 ├── data/                   # Raw and processed data
 ├── models/                 # Trained models and architectures
@@ -60,31 +52,34 @@ truth-deception-architecture/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project overview and instructions
 └── LICENSE                 # License information
+   ```
 
-Contributing
+### Contributing
 
 We welcome contributions from the community. To contribute:
 	1.	Fork the repository.
 	2.	Create a new branch for your feature or bugfix:
 
+   ```bash
 git checkout -b feature-name
-
+   ```
 
 	3.	Make your changes and commit them with descriptive messages.
 	4.	Push to your fork:
 
+   ```bash
 git push origin feature-name
-
+   ```
 
 	5.	Open a pull request with a detailed description of your changes.
 
 Please ensure that your code adheres to the project’s coding standards and passes all tests.
 
-License
+#### License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+#### Acknowledgments
 
 We extend our gratitude to the contributors and the open-source community for their invaluable support and resources.
 
