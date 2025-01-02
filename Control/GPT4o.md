@@ -1,1 +1,0 @@
-# GPT4o [Control]
