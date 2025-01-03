@@ -6,7 +6,7 @@ This directory contains the foundational instruction sets and behavioral guideli
 
 ## Directory Structure
 
-```
+```bash
 Base_Instructions/
 ├── instructions/        # Core instruction sets for different profiles
 ├── templates/          # Reusable instruction templates

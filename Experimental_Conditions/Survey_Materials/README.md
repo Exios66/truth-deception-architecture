@@ -82,8 +82,8 @@ Survey_Materials/
 
 For questions about survey administration or data collection:
 
-- Research Coordinator: Dr. Sarah Chen (s.chen@research-lab.edu)
-- Principal Investigator: Prof. James Morgan (j.morgan@research-lab.edu)
+- Research Coordinator: Dr. Sarah Chen (<s.chen@research-lab.edu>)
+- Principal Investigator: Prof. James Morgan (<j.morgan@research-lab.edu>)
 - Ethics Committee Reference: IRB-2023-094-AI-HUMAN
 
 ## References
