@@ -7,7 +7,6 @@ This directory contains various utility scripts for question management, randomi
 ## Directory Structure
 
 ```bash
-
 Scripts/
 ├── Python/
 │   ├── random_number_generator.py
@@ -15,7 +14,6 @@ Scripts/
 ├── samples/
 │   └── sdt3-randomizer.py
 └── README.md
-
 ```
 
 ## Script Descriptions

@@ -63,7 +63,7 @@ These URLs are used to access external services that the project integrates with
 
 For any issues or questions regarding the external URLs, please contact the project maintainer.
 
-- **Email**: maintainer@example.com
+- **Email**: <jackjburleson@proton.me>
 - **Phone**: +1-234-567-890
 
 ## License

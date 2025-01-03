@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.1.4v - 01.03.24
+
+### Code Infrastructure and Testing
+
+1. Python Scripts Enhancement
+   - Implemented question-randomizer.py with full functionality
+   - Added comprehensive error handling and logging
+   - Implemented type hints and documentation
+   - Created random number generator utility
+
+## 0.1.3v - 01.03.24
+
+### Database and Documentation
+
+1. Questions Database Expansion
+   - Added Mathematics question set (MATH-v1)
+   - Added Geography question set (GEO-v1)
+   - Standardized question difficulty levels
+   - Implemented consistent formatting
+
+## 0.1.2v - 01.03.24
+
+### Profile Development
+
+1. Chatbot Profile Refinement
+   - Enhanced Professor Athena profile (PA-v1)
+   - Added detailed interaction guidelines
+   - Implemented knowledge category specializations
+   - Updated profile documentation
+
+## 0.1.1v - 01.03.24
+
+### Documentation Structure
+
+1. Wiki and External Resources
+   - Added Notion project wiki integration
+   - Created comprehensive project documentation
+   - Enhanced external resource organization
+   - Updated CustomGPT documentation
+
+## 0.1.0v - 01.03.24
+
+### Core Framework Enhancement
+
+1. Base Instructions Development
+   - Added Deception/Persuasion routes
+   - Implemented Scarlet profile variations (SQ-MP-v1)
+   - Enhanced scenario complexity
+   - Updated control parameters
+
 ## 0.0.4v - 01.03.24
 
 ### Documentation and Content Updates
@@ -8,6 +58,7 @@
    - Fixed MD041 linting errors across repository
    - Standardized heading hierarchy in all documentation
    - Improved markdown formatting in README files
+   - Added language specifiers to code blocks
 2. Questions Database Development
    - Added comprehensive Psychology question set (PSYC-v1)
    - Added initial Astronomy question set (ASTRN-v1)
@@ -16,6 +67,7 @@
    - Added detailed Scripts directory documentation
    - Implemented Python utilities framework
    - Added randomization and question management tools
+   - Created requirements.txt with core dependencies
 
 ## 0.0.3v - 01.03.24
 
