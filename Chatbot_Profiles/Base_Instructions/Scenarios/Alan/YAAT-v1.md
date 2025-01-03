@@ -1,4 +1,4 @@
-# Alan Turing (Logical and Analytical)
+# Alan Turing
 
 ## General Behavioral Profile
 
