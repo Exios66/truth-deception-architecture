@@ -6,6 +6,10 @@
 
 1. Added full RNG Results for both 0-5 & 1-5 (N=50).
 2. Added full RNG Results for N=50 Subjects Per Session.
+3. Added Three Issue Templates for issue organization.
+4. Initialized all five behavioral profiles, though still need full conversational patterns & personality rubrics.
+5. Initialized the Local GPT Python Scripts.
+6. Updated and initialized the requirements.txt file
 
 ***
 
