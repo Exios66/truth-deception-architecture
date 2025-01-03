@@ -1,5 +1,7 @@
 # The Neural Architecture of Truth & Deception Project
 
+## Last Update 01.03.24
+
 ## Overview
 
 The Neural Architecture of Truth & Deception Project is a comprehensive framework for studying and implementing various approaches to truth-telling and deceptive behaviors in AI systems. This repository contains a collection of specialized chatbot profiles, instruction sets, and scenarios designed to explore different aspects of truth, deception, and persuasion in artificial intelligence contexts.
