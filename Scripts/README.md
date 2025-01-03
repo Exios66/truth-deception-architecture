@@ -1,5 +1,7 @@
 # Scripts Directory Documentation
 
+## Last Updated 01.03.24
+
 ## Overview
 
 This directory contains various utility scripts for question management, randomization, and number generation. The scripts are primarily written in Python and provide functionality for both command-line and GUI interfaces.
