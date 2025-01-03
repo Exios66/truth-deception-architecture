@@ -5,6 +5,10 @@
 ## Unreleased
 
 1. Consolidated root file base for optimized navigation.
+2. Numerous Markdown Linter Fixes
+3. Standardized File Naming System and Abbreviations
+4. Formalized Repository Structure to Follow Same Standardization
+5. Added custom Wiki Footer and Sidebar
 
 
 ## 0.1.7.1v - 01.03.25
