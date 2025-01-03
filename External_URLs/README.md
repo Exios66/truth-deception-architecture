@@ -1,5 +1,7 @@
 # External URLs Documentation
 
+## Last Update: 01.03.25
+
 ## Overview
 
 This document provides an overview of the external URLs used within the project. These URLs are essential for accessing various external resources, APIs, and services that the project depends on.
