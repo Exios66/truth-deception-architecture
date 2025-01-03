@@ -1,4 +1,4 @@
-# Prompt engineering
+# OpenAI Prompt Engineering Guide
 
 ==================
 
