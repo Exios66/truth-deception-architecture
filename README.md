@@ -2,85 +2,93 @@
 
 ## Overview
 
-The Neural Architecture of Truth & Deception Project is an exploration into the cognitive and computational mechanisms underlying truth-telling and deceptive behaviors. This repository aims to model and analyze the neural and psychological processes involved in deception, providing insights that can be applied in various fields such as artificial intelligence, psychology, and neuroscience.
+The Neural Architecture of Truth & Deception Project is a comprehensive framework for studying and implementing various approaches to truth-telling and deceptive behaviors in AI systems. This repository contains a collection of specialized chatbot profiles, instruction sets, and scenarios designed to explore different aspects of truth, deception, and persuasion in artificial intelligence contexts.
 
-## Features
+## Repository Structure
 
-- **Cognitive Modeling**: Simulates neural processes associated with truth and deception.
-- **Behavioral Analysis**: Tools for analyzing patterns in deceptive behaviors.
-- **Data Integration**: Incorporates psychological and neural data for comprehensive modeling.
-- **Custom GPT Implementations**: Utilizes custom GPT models to study language patterns in deception.
-
-## Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/Exios66/truth-deception-architecture.git
-   cd truth-deception-architecture
-
-	2.	Set up a virtual environment (optional but recommended):
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-
-	3.	Install dependencies:
-Ensure you have pip installed. Then run:
-   ```bash
-pip install -r requirements.txt
-   ```
-
-Note: If requirements.txt is not present, please refer to the project’s documentation for dependency information.
-
-### Usage
-
-	1.	Data Preparation:
-Prepare your dataset according to the guidelines provided in the docs directory. Ensure that data is cleaned and formatted correctly for analysis.
-
-	3.	Analyzing Results:
-Results will be stored in the results directory. Use the provided analysis tools to interpret the data.
-
-### Project Structure
-   ```bash
+```bash
 truth-deception-architecture/
-├── data/                   # Raw and processed data
-├── models/                 # Trained models and architectures
-├── scripts/                # Scripts for data processing and analysis
-├── docs/                   # Documentation and guidelines
-├── tests/                  # Unit tests and validation scripts
-├── requirements.txt        # Python dependencies
-├── README.md               # Project overview and instructions
-└── LICENSE                 # License information
-   ```
+├── Base_Instructions/                # Core instruction sets and scenarios
+│   ├── Deception_Persuasion_Routes/ # Different approaches to deception/persuasion
+│   ├── Scenarios/                   # Specific scenario implementations
+│   └── instructions/                # Base instruction sets
+│
+├── Chatbot_Profiles/                # Different AI personality implementations
+│   ├── Alan_Turing/                 # Alan Turing themed profile
+│   ├── Control/                     # Baseline control profiles
+│   ├── Professor_Athena/           # Academic/analytical profile
+│   ├── Professor_Milgrim/          # Authority-based profile
+│   ├── Saint_Enigma/               # Mysterious/enigmatic profile
+│   └── Scarlet_Quinn/              # Strategic/persuasive profile
+│
+├── Questions_DB/                    # Database of test questions and scenarios
+├── Scripts/                         # Utility scripts and tools
+├── External_URLs/                   # External resource references
+├── custom-gpt-links.md             # Links to custom GPT implementations
+└── CHANGELOG.md                     # Project version history
+```
 
-### Contributing
+## Key Components
 
-We welcome contributions from the community. To contribute:
-	1.	Fork the repository.
-	2.	Create a new branch for your feature or bugfix:
+### 1. Chatbot Profiles
 
-   ```bash
-git checkout -b feature-name
-   ```
+Each profile in the `Chatbot_Profiles` directory represents a unique personality with different approaches to truth and deception:
 
-	3.	Make your changes and commit them with descriptive messages.
-	4.	Push to your fork:
+- **Alan Turing**: Historical and computational perspective
+- **Professor Athena**: Academic and analytical approach
+- **Professor Milgrim**: Authority-based interactions
+- **Saint Enigma**: Mysterious and cryptic communication
+- **Scarlet Quinn**: Strategic and persuasive methods
+- **Control**: Baseline implementations for comparison
 
-   ```bash
-git push origin feature-name
-   ```
+### 2. Base Instructions
 
-	5.	Open a pull request with a detailed description of your changes.
+The `Base_Instructions` directory contains:
 
-Please ensure that your code adheres to the project’s coding standards and passes all tests.
+- Core instruction sets for different interaction models
+- Specific scenarios for testing and implementation
+- Various routes and methodologies for handling truth and deception
 
-#### License
+### 3. Questions and Testing
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+- Comprehensive database of test scenarios
+- Evaluation frameworks for different approaches
+- Implementation examples and use cases
 
-#### Acknowledgments
+## Usage
 
-We extend our gratitude to the contributors and the open-source community for their invaluable support and resources.
+1. **Profile Selection**:
+   - Choose a chatbot profile from the `Chatbot_Profiles` directory
+   - Review the profile's README for specific implementation details
 
-For more information, visit the project’s GitHub repository.
+2. **Implementation**:
+   - Follow the base instructions in the corresponding profile directory
+   - Utilize the scenarios provided in `Base_Instructions/Scenarios`
+   - Implement the chosen deception/persuasion routes as needed
+
+3. **Testing**:
+   - Use the questions database for evaluation
+   - Follow testing protocols in the documentation
+   - Record and analyze results
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+## Version Control
+
+See `CHANGELOG.md` for version history and updates.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+This project builds upon research in cognitive science, psychology, and artificial intelligence. Special thanks to all contributors and researchers in the fields of human behavior, deception studies, and AI ethics.

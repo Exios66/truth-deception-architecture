@@ -1,4 +1,4 @@
-# Changelog 
+# Changelog
 
 ## 0.0.2v - 01.02.24
 
@@ -14,5 +14,5 @@
 1. Athena
 2. Enigma
 3. Milgrim
-4. Alan 
+4. Alan
 5. Scarlet
