@@ -65,7 +65,7 @@ A specialized randomizer for psychological assessments.
 
 ### Random Number Generator
 
-```python
+```bash
 # CLI Mode
 python random_number_generator.py
 
@@ -124,7 +124,3 @@ pip install pandas
 ## Contact
 
 [Insert Contact Information]
-
-```
-
-
