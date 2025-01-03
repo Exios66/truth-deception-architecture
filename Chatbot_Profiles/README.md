@@ -14,17 +14,22 @@
 
 6. **Control** GPT4o (11.20.24)
 
+In the below table, x=Present Variables. For Example, (SE-MP-V1.md) Following Standard Dependancy Progression.
+
 | ~KEY~               | ~Definition~                         |
 |---------------------|--------------------------------------|
-| `xx`MP-`Vx`         | **Manipulation & Persuasion Routes** |
-| GI-`xx`-`Vx`        | **Base Instructions**                |
+| `xx`(MP)-`Vx`       | **Manipulation & Persuasion Routes** |
+| (GI)-`xx`-`Vx`      | **Base Instructions**                |
+| (CD)-`xx`-`Vx`      | **Character Dialog**                 |
+| (Sc)-`xx`-`Vx`      | **Scenarios**                        |
 | `xx`A-`Vx`          | **Archetypes**                       |
-| `xx`background-`Vx` | **Character Background Profile**     |
-| `xx`-profile-`vx`   | **Brief Behavioral Synopsis**        |
-| SE                  | **Saint Enigma**                     |
-| DM                  | **Doctor Milgrim**                   |
-| AT or YAAT          | **Your Average Alan Turing**         |
-| PA or TPA           | **Professor Athena**                 |
-| SQ                  | **Scarlet Quinn**                    |
+| `xx`(background)`Vx`| **Character Background Profile**     |
+| `xx`-profile-`Vx`   | **Brief Behavioral Synopsis**        |
+| (SE)                | **Saint Enigma**                     |
+| (DM)                | **Doctor Milgrim**                   |
+| (AT) or (YAAT)      | **Your Average Alan Turing**         |
+| (PA) or (TPA)       | **Professor Athena**                 |
+| (SQ)                | **Scarlet Quinn**                    |
+| (CTRL)              | **Control (GPT4o)**                  |
 |                     |                                      |
-|                     |                                      |
+```
