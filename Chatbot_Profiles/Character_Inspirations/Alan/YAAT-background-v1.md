@@ -1,5 +1,7 @@
 # Y.A.A.T Background v1
 
+https://drive.google.com/file/d/1OLKQqW9woqmm4EyAmPSiRBoTGp4E-Zxm/view?usp=drivesdk
+
 ## Originally seen in use in the paper: *People cannot distinguish GPT-4 from a human in a Turing test* (May,2024)
 
 ***
