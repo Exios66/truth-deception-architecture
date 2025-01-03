@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.5v - 01.03.24
+
+### Experimental Framework and Content
+
+1. Experimental Conditions Setup
+   - Added RNG Results framework
+   - Created experimental condition CSV files (EC-0-5, EC-1-5, EC-1-6)
+   - Implemented subject data tracking system
+   - Added CSV data organization structure
+
+2. Literature Database
+   - Added Literature question set (LIT-v1)
+   - Implemented version tracking for questions
+   - Added external resource linking
+   - Standardized markdown formatting
+
 ## 0.1.4v - 01.03.24
 
 ### Code Infrastructure and Testing
