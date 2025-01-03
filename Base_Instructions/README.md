@@ -1,1 +1,0 @@
-# Base Instructions Repository Documentation
