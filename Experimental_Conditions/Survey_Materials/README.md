@@ -1,5 +1,7 @@
 # Survey Materials Documentation
 
+## Last Updated: 01.03.25
+
 ## Overview
 
 This directory contains all survey instruments and assessment materials used in the truth-deception architecture experiments. These surveys are designed to measure participants' attitudes, beliefs, and responses across various experimental conditions involving AI interactions.
