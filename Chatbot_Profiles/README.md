@@ -20,6 +20,7 @@
 | GI-`xx`-`Vx`        | **Base Instructions**                |
 | `xx`A-`Vx`          | **Archetypes**                       |
 | `xx`background-`Vx` | **Character Background Profile**     |
+| `xx`-profile-`vx`   | **Brief Behavioral Synopsis**        |
 | SE                  | **Saint Enigma**                     |
 | DM                  | **Doctor Milgrim**                   |
 | AT or YAAT          | **Your Average Alan Turing**         |
