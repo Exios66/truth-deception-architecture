@@ -1,4 +1,23 @@
-# Changelog
+# Changelog - The Neural Architecture Underpinning Truth and Deception Detection
+
+## Jack J. Burleson / Lucius J. Morningstar
+
+## Unreleased
+
+1. Added full RNG Results for both 0-5 & 1-5 (N=50).
+2. Added full RNG Results for N=50 Subjects Per Session.
+
+***
+
+## 0.1.7v - 01.03.24
+
+1. Wiki Enhancements
+2. Additional READMEs initialized
+3. Linter Errors
+4. Discussions Initalized
+5. Added Full 1-5 Subjects Utilized
+6. Added Further GitHub Repositories and External Resources
+7. Added External Access URLs and Entry Links
 
 ## 0.1.6v - 01.03.24
 
