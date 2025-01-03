@@ -1,1 +1,0 @@
-# Deception & Persuasion README
