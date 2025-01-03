@@ -1,8 +1,6 @@
 # Y.A.A.T Background v1
 
-chrome://external-file/People%20cannot%20distinguish%20GPT-4%20from%20a%20human%20in%20aTuring%20test.pdf
-
-## Originally seen in use in the paper: *People cannot distinguish GPT-4 from a human in a Turing test (May,2024)
+## Originally seen in use in the paper: *People cannot distinguish GPT-4 from a human in a Turing test* (May,2024)
 
 ***
 
