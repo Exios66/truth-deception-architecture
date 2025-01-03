@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.0.4v - 01.03.24
+
+### Documentation and Content Updates
+
+1. Markdown Compliance
+   - Fixed MD041 linting errors across repository
+   - Standardized heading hierarchy in all documentation
+   - Improved markdown formatting in README files
+2. Questions Database Development
+   - Added comprehensive Psychology question set (PSYC-v1)
+   - Added initial Astronomy question set (ASTRN-v1)
+   - Implemented standardized question format
+3. Scripts Infrastructure
+   - Added detailed Scripts directory documentation
+   - Implemented Python utilities framework
+   - Added randomization and question management tools
+
 ## 0.0.3v - 01.03.24
 
 ### Documentation and Repository Structure
