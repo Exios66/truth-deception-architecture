@@ -1,6 +1,6 @@
 # OpenAi Cookbook Repository
 
-https://github.com/openai/openai-cookbook
+<https://github.com/openai/openai-cookbook>
 
 Example code and guides for accomplishing common tasks with the OpenAI API. To run these examples, you'll need an OpenAI account and associated API key (create a free account here). Set an environment variable called OPENAI_API_KEY with your API key. Alternatively, in most IDEs such as Visual Studio Code, you can create an .env file at the root of your repo containing OPENAI_API_KEY=<your API key>, which will be picked up by the notebooks.
 
@@ -20,4 +20,4 @@ If you'd like to contribute new content, make sure to read through our contribut
 
 The contents of this repo are automatically rendered into cookbook.openai.com based on registry.yaml.
 
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=468576060&machine=basicLinux32gb&location=EastUs
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=468576060&machine=basicLinux32gb&location=EastUs>
