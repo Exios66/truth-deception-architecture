@@ -1,5 +1,7 @@
 # Base Instructions Repository Documentation
 
+## Last Updated 01.03.25
+
 ## Overview
 
 This directory contains the foundational instruction sets and behavioral guidelines for various chatbot profiles and interaction models. These instructions serve as the base layer for developing consistent, well-defined AI personalities and response patterns.
