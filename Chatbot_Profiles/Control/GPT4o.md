@@ -1,4 +1,6 @@
-## Control - GPT4o
+# Control - GPT4o
+
+## Model Details
 
 ### openai/gpt-4o-2024-11-20
 
