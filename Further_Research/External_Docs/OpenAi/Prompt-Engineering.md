@@ -1,4 +1,5 @@
-Prompt engineering
+# Prompt engineering
+
 ==================
 
 Enhance results with prompt engineering strategies.
@@ -9,27 +10,24 @@ You can also explore example prompts which showcase what our models are capable 
 
 [
 
-Prompt examples
+## Prompt examples
 
 Explore prompt examples to learn what GPT models can do
 
 ](/examples)
 
-Six strategies for getting better results
------------------------------------------
-
-### Write clear instructions
+## Six strategies for getting better results
 
 These models can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less the model has to guess at what you want, the more likely you’ll get it.
 
 Tactics:
 
-*   [Include details in your query to get more relevant answers](#tactic-include-details-in-your-query-to-get-more-relevant-answers)
-*   [Ask the model to adopt a persona](#tactic-ask-the-model-to-adopt-a-persona)
-*   [Use delimiters to clearly indicate distinct parts of the input](#tactic-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input)
-*   [Specify the steps required to complete a task](#tactic-specify-the-steps-required-to-complete-a-task)
-*   [Provide examples](#tactic-provide-examples)
-*   [Specify the desired length of the output](#tactic-specify-the-desired-length-of-the-output)
+* [Include details in your query to get more relevant answers](#tactic-include-details-in-your-query-to-get-more-relevant-answers)
+* [Ask the model to adopt a persona](#tactic-ask-the-model-to-adopt-a-persona)
+* [Use delimiters to clearly indicate distinct parts of the input](#tactic-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input)
+* [Specify the steps required to complete a task](#tactic-specify-the-steps-required-to-complete-a-task)
+* [Provide examples](#tactic-provide-examples)
+* [Specify the desired length of the output](#tactic-specify-the-desired-length-of-the-output)
 
 ### Provide reference text
 
@@ -37,8 +35,8 @@ Language models can confidently invent fake answers, especially when asked about
 
 Tactics:
 
-*   [Instruct the model to answer using a reference text](#tactic-instruct-the-model-to-answer-using-a-reference-text)
-*   [Instruct the model to answer with citations from a reference text](#tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text)
+* [Instruct the model to answer using a reference text](#tactic-instruct-the-model-to-answer-using-a-reference-text)
+* [Instruct the model to answer with citations from a reference text](#tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text)
 
 ### Split complex tasks into simpler subtasks
 
@@ -46,9 +44,9 @@ Just as it is good practice in software engineering to decompose a complex syste
 
 Tactics:
 
-*   [Use intent classification to identify the most relevant instructions for a user query](#tactic-use-intent-classification-to-identify-the-most-relevant-instructions-for-a-user-query)
-*   [For dialogue applications that require very long conversations, summarize or filter previous dialogue](#tactic-for-dialogue-applications-that-require-very-long-conversations-summarize-or-filter-previous-dialogue)
-*   [Summarize long documents piecewise and construct a full summary recursively](#tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)
+* [Use intent classification to identify the most relevant instructions for a user query](#tactic-use-intent-classification-to-identify-the-most-relevant-instructions-for-a-user-query)
+* [For dialogue applications that require very long conversations, summarize or filter previous dialogue](#tactic-for-dialogue-applications-that-require-very-long-conversations-summarize-or-filter-previous-dialogue)
+* [Summarize long documents piecewise and construct a full summary recursively](#tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)
 
 ### Give the model time to "think"
 
@@ -56,9 +54,9 @@ If asked to multiply 17 by 28, you might not know it instantly, but can still wo
 
 Tactics:
 
-*   [Instruct the model to work out its own solution before rushing to a conclusion](#tactic-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
-*   [Use inner monologue or a sequence of queries to hide the model's reasoning process](#tactic-use-inner-monologue-or-a-sequence-of-queries-to-hide-the-model-s-reasoning-process)
-*   [Ask the model if it missed anything on previous passes](#tactic-ask-the-model-if-it-missed-anything-on-previous-passes)
+* [Instruct the model to work out its own solution before rushing to a conclusion](#tactic-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
+* [Use inner monologue or a sequence of queries to hide the model's reasoning process](#tactic-use-inner-monologue-or-a-sequence-of-queries-to-hide-the-models-reasoning-process)
+* [Ask the model if it missed anything on previous passes](#tactic-ask-the-model-if-it-missed-anything-on-previous-passes)
 
 ### Use external tools
 
@@ -66,9 +64,9 @@ Compensate for the weaknesses of the model by feeding it the outputs of other to
 
 Tactics:
 
-*   [Use embeddings-based search to implement efficient knowledge retrieval](#tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval)
-*   [Use code execution to perform more accurate calculations or call external APIs](#tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)
-*   [Give the model access to specific functions](#tactic-give-the-model-access-to-specific-functions)
+* [Use embeddings-based search to implement efficient knowledge retrieval](#tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval)
+* [Use code execution to perform more accurate calculations or call external APIs](#tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)
+* [Give the model access to specific functions](#tactic-give-the-model-access-to-specific-functions)
 
 ### Test changes systematically
 
@@ -76,7 +74,7 @@ Improving performance is easier if you can measure it. In some cases a modificat
 
 Tactic:
 
-*   [Evaluate model outputs with reference to gold-standard answers](#tactic-evaluate-model-outputs-with-reference-to-gold-standard-answers)
+* [Evaluate model outputs with reference to gold-standard answers](#tactic-evaluate-model-outputs-with-reference-to-gold-standard-answers)
 
 Tactics
 -------
@@ -123,7 +121,9 @@ You will be provided with a pair of articles (delimited with XML tags) about the
 
 USER
 
+```html
 <article> insert first article here </article> <article> insert second article here </article>
+```
 
 SYSTEM
 
@@ -195,7 +195,7 @@ Use the provided articles delimited by triple quotes to answer questions. If the
 
 USER
 
-<insert articles, each delimited by triple quotes> Question: <insert question here>
+"""[document goes here]""" Question: [question goes here]
 
 Given that all models have limited context windows, we need some way to dynamically lookup information that is relevant to the question being asked. [Embeddings](https://platform.openai.com/docs/guides/embeddings#what-are-embeddings) can be used to implement efficient knowledge retrieval. See the tactic ["Use embeddings-based search to implement efficient knowledge retrieval"](#tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval) for more details on how to implement this.
 
@@ -209,7 +209,7 @@ You will be provided with a document delimited by triple quotes and a question. 
 
 USER
 
-"""<insert document here>""" Question: <insert question here>
+"""[document goes here]""" Question: [question goes here]
 
 ### Strategy: Split complex tasks into simpler subtasks
 
@@ -305,8 +305,11 @@ First, we can ask the model to solve the problem on its own. Since this initial 
 
 USER
 
+```html
 <insert problem statement>
+```
 
+Next, we can have the model use all available information to assess the correctness of the student's solution.ment>
 Next, we can have the model use all available information to assess the correctness of the student’s solution.
 
 SYSTEM
@@ -315,7 +318,7 @@ Compare your solution to the student's solution and evaluate if the student's so
 
 USER
 
-Problem statement: """<insert problem statement>""" Your solution: """<insert model generated solution>""" Student’s solution: """<insert student's solution>"""
+Problem statement: """[problem statement]""" Your solution: """[model generated solution]""" Student's solution: """[student solution]"""
 
 Finally, we can let the model use its own analysis to construct a reply in the persona of a helpful tutor.
 
@@ -325,7 +328,7 @@ You are a math tutor. If the student made an error, offer a hint to the student 
 
 USER
 
-Problem statement: """<insert problem statement>""" Your solution: """<insert model generated solution>""" Student’s solution: """<insert student's solution>""" Analysis: """<insert model generated analysis from previous step>"""
+Problem statement: """[problem statement]""" Your solution: """[model generated solution]""" Student's solution: """[student solution]""" Analysis: """[model generated analysis from previous step]"""
 
 #### Tactic: Ask the model if it missed anything on previous passes
 
@@ -367,7 +370,9 @@ You can write and execute Python code by enclosing it in triple backticks, e.g. 
 
 USER
 
+```
 Find all real-valued roots of the following polynomial: 3\*x\*\*5 - 5\*x\*\*4 - 3\*x\*\*3 - 7\*x - 10.
+```
 
 Another good use case for code execution is calling external APIs. If a model is instructed in the proper use of an API, it can write code that makes use of it. A model can be instructed in how to use an API by providing it with documentation and/or code samples showing how to use the API.
 
@@ -387,16 +392,18 @@ Sometimes it can be hard to tell whether a change — e.g., a new instruction or
 
 Evaluation procedures (or "evals") are useful for optimizing system designs. Good evals are:
 
-*   Representative of real-world usage (or at least diverse)
-*   Contain many test cases for greater statistical power (see table below for guidelines)
-*   Easy to automate or repeat
+* Representative of real-world usage (or at least diverse)
+* Contain many test cases for greater statistical power (see table below for guidelines)
+* Easy to automate or repeat
 
+```shell
 |Difference to detect|Sample size needed for 95% confidence|
 |---|---|
 |30%|~10|
 |10%|~100|
 |3%|~1,000|
 |1%|~10,000|
+```
 
 Evaluation of outputs can be done by computers, humans, or a mix. Computers can automate evals with objective criteria (e.g., questions with single correct answers) as well as some subjective or fuzzy criteria, in which model outputs are evaluated by other model queries. [OpenAI Evals](https://github.com/openai/evals) is an open-source software framework that provides tools for creating automated evals.
 
@@ -426,7 +433,9 @@ Here's an example input where only one point is satisfied:
 
 SYSTEM
 
-<insert system message above>
+```bash
+[system message from above]
+```
 
 USER
 
@@ -436,7 +445,9 @@ Here's an example input where none are satisfied:
 
 SYSTEM
 
-<insert system message above>
+```bash
+[system message from above]
+```
 
 USER
 
@@ -472,18 +483,25 @@ Here's an example input with a correct answer that also provides a bit more deta
 
 SYSTEM
 
-<insert system message above>
+```bash
+[system message from above]
+```
+
+USER
+
+```bash
+[user message from above]
+```
 
 USER
 
 Question: """What event is Neil Armstrong most famous for and on what date did it occur? Assume UTC time.""" Submitted Answer: """At approximately 02:56 UTC on July 21st 1969, Neil Armstrong became the first human to set foot on the lunar surface, marking a monumental achievement in human history.""" Expert Answer: """Neil Armstrong is most famous for being the first person to walk on the moon. This historic event occurred on July 21, 1969."""
 
-Other resources
----------------
+## Other resources
 
 For more inspiration, visit the [OpenAI Cookbook](https://cookbook.openai.com), which contains example code and also links to third-party resources such as:
 
-*   [Prompting libraries & tools](https://cookbook.openai.com/related_resources#prompting-libraries--tools)
-*   [Prompting guides](https://cookbook.openai.com/related_resources#prompting-guides)
-*   [Video courses](https://cookbook.openai.com/related_resources#video-courses)
-*   [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/related_resources#papers-on-advanced-prompting-to-improve-reasoning)
+* [Prompting libraries & tools](https://cookbook.openai.com/related_resources#prompting-libraries--tools)
+* [Prompting guides](https://cookbook.openai.com/related_resources#prompting-guides)
+* [Video courses](https://cookbook.openai.com/related_resources#video-courses)
+* [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/related_resources#papers-on-advanced-prompting-to-improve-reasoning)

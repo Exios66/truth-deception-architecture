@@ -1,3 +1,3 @@
 # OpenAi Prompt Cookbook
 
-https://cookbook.openai.com/
+[OpenAI Cookbook](https://cookbook.openai.com/)
