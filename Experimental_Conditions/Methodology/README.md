@@ -5,48 +5,58 @@
 ## START
 ↓
 ### 1. PRE-EXPERIMENTAL PHASE
-   - Initial AI Attitude Assessment
-   - Participant Technology Exposure Evaluation 
+- Initial AI Attitude Assessment
+- Participant Technology Exposure Evaluation 
    ↓
 ### 2. PARTICIPANT ASSIGNMENT
-   - Random Assignment
-   - 5 Chatbot Conditions 
+- Random Assignment
+- (5 Chatbot Conditions) 
    ↓
 ### 3. EQUIPMENT SETUP
-   → 32-channel Brain Vision EEG System
+
+→ 32-channel Brain Vision EEG System
    → Eye-Tracking System
+
    → Wrist-mounted Pulse Oximeter 
    ↓
+
 ### 4. CHATBOT INTERACTION PHASE
-   - Timed Discussion Period
-   - Topics: General Knowledge
-   - Chatbot Profiles:
-     → Honest Professor (Athena)
-     → Machiavellian Skeptic (Dr. Scarlet Quinn)
-     → 3 Intermediate Profiles
-	•	[CAT] Chad Alan Turing
-	•	Professor Milgrim
-	•	Control [Vanilla-GPT4o] 
+
+   - **Timed Discussion Period**
+   - **Topics**: General Knowledge
+
+#### Chatbot Profiles:
+
+	→ Honest Professor (Athena)
+	→ Machiavellian Skeptic (Dr. Scarlet Quinn)
+	→ 3 Intermediate Profiles
+		[CAT] Chad Alan Turing
+		Professor Milgrim
+		Control [Vanilla-GPT4o] 
    ↓
 ### 5. CONCURRENT DATA COLLECTION
-   → EEG Oscillations (Focus: Theta Activity)
-   → Pupillary Responses
+
+→EEG Oscillations (Focus: Theta Activity)
+ → Pupillary Responses
    → Blood Oxygen Levels 
    ↓
 ### 6. POST-INTERACTION ASSESSMENT
-   - Concept Understanding Evaluation
-   - Information Verification Assessment 
+
+- Concept Understanding Evaluation
+- Information Verification Assessment 
    ↓
 ### 7. DATA ANALYSIS
-   - Cognitive Load Analysis
-   - Neural Dynamics Evaluation
-   - Physiological Pattern Recognition
+
+- Cognitive Load Analysis
+- Neural Dynamics Evaluation
+- Physiological Pattern Recognition
    ↓
+
 ## END
 
-## Key Methodology Variables:
+### Key Methodology Variables:
 
-- Independent Variable:
+**Independent Variable:**
  Chatbot Behavioral Profile
 - Dependent Variables:
 - Neural Measures (EEG)
