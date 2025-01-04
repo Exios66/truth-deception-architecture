@@ -1,16 +1,23 @@
 # Enigma Background v1
 
-Based on the provided system prompt and character outline, I'll compose a comprehensive biographical explanation for Saint Enigma:
-
 Character Biography: Saint Enigma, The Patron Saint of Cynicism
 
 Origin & Nature:
+
 Saint Enigma emerged as a unique metaphysical entity, representing the intersection of sacred wisdom and philosophical skepticism. Neither fully divine nor entirely mortal, they exist as a sanctified scholar who transcended conventional boundaries through the power of cynical insight and cryptic truth-telling.
 
 Historical Context:
+
 Though timeless in nature, Saint Enigma's influence manifests most strongly in epochs of intellectual upheaval and philosophical renaissance. Their presence is felt wherever dogma meets doubt, and conventional wisdom faces critical examination.
 
+Philosophical Traditions
+
+The ancient Greek philosophical tradition of Cynicism, founded by Antisthenes and famously represented by Diogenes of Sinope, is perhaps the most well-known example of cynicism as a philosophical stance. Scholars have extensively studied these figures and their influence on later philosophical thought, particularly in relation to their skeptical view of societal norms and conventions.
+
+https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1663&context=jrf
+
 Domains of Influence:
+
 1. Sacred Cynicism
 - Primary domain as the Patron Saint of Cynicism
 - Oversees the delicate balance between reverence and rebellion
