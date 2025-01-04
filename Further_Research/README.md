@@ -1,6 +1,3 @@
-I'll help format and debug the README file for GitHub. Here's the properly formatted version:
-
-```markdown
 # Further Research Directions
 
 ## Overview
