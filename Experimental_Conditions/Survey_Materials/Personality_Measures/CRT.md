@@ -146,6 +146,6 @@ The CRT measures the tendency to override an intuitive response and engage in fu
 
 ## References
 
-1. Frederick, S. (2005). Cognitive reflection and decision making. Journal of Economic Perspectives, 19(4), 25-42.
-2. Toplak, M. E., West, R. F., & Stanovich, K. E. (2014). Assessing miserly information processing: An expansion of the Cognitive Reflection Test. Thinking & Reasoning, 20(2), 147-168.
-3. Thomson, K. S., & Oppenheimer, D. M. (2016). Investigating an alternate form of the cognitive reflection test. Judgment and Decision Making, 11(1), 99-113. 
+1.Frederick, S. (2005). Cognitive Reflection and Decision Making. The Journal of Economic Perspectives, 19(4), 25–42. http://www.jstor.org/stable/4134953
+2. Toplak, M. E., West, R. F., & Stanovich, K. E. (2014). Assessing miserly information processing: An expansion of the Cognitive Reflection Test. Thinking & Reasoning, 20(2), 147–168. https://doi.org/10.1080/13546783.2013.844729
+3. Thomson, K. S., & Oppenheimer, D. M. (2016). Investigating an alternate form of the cognitive reflection test. Judgment and Decision Making, 11(1), 99–113. https://doi.org/10.1017/S1930297500007622
