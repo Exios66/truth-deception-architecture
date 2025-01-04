@@ -1,73 +1,82 @@
-# External URLs Documentation
+# External URLs Subdirectory Documentation
 
-## Last Update: 01.03.25
+**Last Updated: 01.03.25**
 
 ## Overview
 
-This document provides an overview of the external URLs used within the project. These URLs are essential for accessing various external resources, APIs, and services that the project depends on.
+The External_URLs subdirectory contains resources and documentation for accessing external links, APIs, and services utilized within the Truth-Deception Architecture repository. It is designed to organize and manage external dependencies effectively, ensuring seamless integration with external resources critical for the project's objectives.
 
-## URL Categories
+## Subdirectory Structure
 
-The external URLs are categorized based on their usage within the project. Below are the main categories:
+```bash
+External_URLs/
+├── CustomGPTs/
+│   ├── README.md
+│   ├── custom-GPT-urls.md
+├── Project_Wikis/
+│   ├── README.md
+└── README.md
+```
 
-1. **APIs**
-2. **Data Sources**
-3. **Documentation**
-4. **External Services**
+## Files and Folders
 
-## APIs
+| File/Folder | Description |
+|------------|-------------|
+| CustomGPTs/ | Contains documentation and URL access links for custom GPT models used in the project. |
+| Project_Wikis/ | Houses references and links to external wikis related to the project. |
+| README.md | Main documentation file for the External_URLs subdirectory. |
 
-These URLs are used to access external APIs for various functionalities such as data retrieval, authentication, and more.
+## Purpose
 
-- **Example API 1**: `https://api.example.com/v1/resource`
-  - Description: Used for retrieving resource data.
-  - Authentication: Requires API key.
-- **Example API 2**: `https://auth.example.com/login`
-  - Description: Used for user authentication.
-  - Authentication: Requires username and password.
+This subdirectory serves as a centralized hub for managing external resources. It enables:
 
-## Data Sources
+1. Organized Access:
+   - Categorizes external URLs for specific use cases, such as custom models, documentation, and external services.
+2. Documentation of Dependencies:
+   - Maintains detailed records of external resources for easier troubleshooting and updates.
+3. Collaboration:
+   - Ensures contributors have easy access to external tools and resources required for project tasks.
 
-These URLs point to external data sources that the project uses for data analysis, machine learning, and other purposes.
+## Key Components
 
-- **Example Data Source 1**: `https://data.example.com/dataset.csv`
-  - Description: Contains sample dataset for analysis.
-  - Format: CSV
-- **Example Data Source 2**: `https://data.example.com/dataset.json`
-  - Description: Contains sample dataset in JSON format.
-  - Format: JSON
+### 1. CustomGPTs
+- Description: Contains direct URL links and metadata for the custom GPT models used in experimental setups.
+- Use Cases:
+  - Model behavior analysis
+  - Deception testing across the manipulation spectrum
+- File Highlights:
+  - custom-GPT-urls.md: Provides URL links and brief descriptions of the models
 
-## Documentation
-
-These URLs link to external documentation that provides additional information, guidelines, and references for the project.
-
-- **Example Documentation 1**: `https://docs.example.com/api`
-  - Description: API documentation for Example API.
-- **Example Documentation 2**: `https://docs.example.com/user-guide`
-  - Description: User guide for the project.
-
-## External Services
-
-These URLs are used to access external services that the project integrates with for various functionalities.
-
-- **Example Service 1**: `https://service.example.com`
-  - Description: External service for data processing.
-- **Example Service 2**: `https://service.example.com/analytics`
-  - Description: External service for analytics.
+### 2. Project_Wikis
+- Description: Links to external wikis or detailed resources that provide additional context or background for the project.
+- Use Cases:
+  - Referencing external research or documentation
+- File Highlights:
+  - README.md: Lists the external wiki links with descriptions
 
 ## Usage Guidelines
 
-- Ensure that all URLs are up-to-date and accessible.
-- Verify the authentication requirements for each URL.
-- Document any changes to the URLs in this README.
+1. Accessing Resources:
+   - Navigate to the relevant folder (e.g., CustomGPTs or Project_Wikis)
+   - Open the markdown files to retrieve the required URLs
 
-## Contact
+2. Updating URLs:
+   - Ensure the URLs are active and accurate
+   - Update the relevant markdown files with any changes
+   - Document updates in the corresponding README.md
 
-For any issues or questions regarding the external URLs, please contact the project maintainer.
+3. Adding New Links:
+   - Add new resources to the appropriate folder
+   - Provide a description and usage instructions for the link
 
-- **Email**: <jackjburleson@proton.me>
-- **Phone**: +1-234-567-890
+## Contact Information
 
-## License
+For inquiries, updates, or to report broken links, contact the repository maintainer:
+- GitHub Profile: Exios66
+- Email: jackjburleson@proton.me
 
-This documentation is licensed under the [Insert License Information].
+## Acknowledgments
+
+The integration of external resources into this project has been made possible through the collaborative efforts of contributors and the availability of cutting-edge APIs and services. We thank all collaborators for their valuable input.
+
+🎩💫
