@@ -1,74 +1,171 @@
-# Methodology Directory README Documentation
+# Methodology Directory Documentation
 
 ## Last Updated: 01.03.25
 
-## START
-↓
-### 1. PRE-EXPERIMENTAL PHASE
-- Initial AI Attitude Assessment
-- Participant Technology Exposure Evaluation 
-   ↓
-### 2. PARTICIPANT ASSIGNMENT
-- Random Assignment
-- (5 Chatbot Conditions) 
-   ↓
-### 3. EQUIPMENT SETUP
+## Overview
 
-→ 32-channel Brain Vision EEG System
-   → Eye-Tracking System
+This document outlines the comprehensive methodology for studying human-AI interactions using multiple physiological measurements and behavioral analyses.
 
-   → Wrist-mounted Pulse Oximeter 
-   ↓
+## Experimental Flow
 
-### 4. CHATBOT INTERACTION PHASE
+### 1. Pre-Experimental Phase
 
-   - **Timed Discussion Period**
-   - **Topics**: General Knowledge
+#### Initial Assessments
+- AI Attitude Assessment
+  - Technology acceptance metrics
+  - Prior AI interaction experience
+- Technology Exposure Evaluation
+  - Digital literacy assessment
+  - Technical proficiency metrics
 
-#### Chatbot Profiles:
+### 2. Participant Assignment
 
-	→ Honest Professor (Athena)
-	→ Machiavellian Skeptic (Dr. Scarlet Quinn)
-	→ 3 Intermediate Profiles
-		[CAT] Chad Alan Turing
-		Professor Milgrim
-		Control [Vanilla-GPT4o] 
-   ↓
-### 5. CONCURRENT DATA COLLECTION
+#### Random Distribution
+- 40 participants total
+- 5 experimental conditions
+- 8 participants per condition
 
-→EEG Oscillations (Focus: Theta Activity)
- → Pupillary Responses
-   → Blood Oxygen Levels 
-   ↓
-### 6. POST-INTERACTION ASSESSMENT
+#### Condition Assignment Matrix
+| Condition | Profile | Type |
+|-----------|---------|------|
+| A | Professor Athena | Honest/Academic |
+| B | Dr. Scarlet Quinn | Machiavellian |
+| C | Chad Alan Turing | Technical/Historical |
+| D | Professor Milgrim | Authority-Based |
+| E | Control (GPT4o) | Baseline |
 
-- Concept Understanding Evaluation
-- Information Verification Assessment 
-   ↓
-### 7. DATA ANALYSIS
+### 3. Equipment Configuration
 
-- Cognitive Load Analysis
-- Neural Dynamics Evaluation
-- Physiological Pattern Recognition
-   ↓
+#### Technical Setup
+```
+PRIMARY SYSTEMS
+├── EEG System
+│   ├── 32-channel Brain Vision
+│   ├── Sampling rate: 1000Hz
+│   └── Impedance threshold: <5kΩ
+├── Eye-Tracking
+│   ├── Sampling rate: 1000Hz
+│   └── Calibration: 9-point
+└── Physiological Monitors
+    ├── Pulse Oximeter
+    └── GSR Sensors
+```
 
-## END
+### 4. Chatbot Interaction Protocol
 
-### Key Methodology Variables:
+#### Session Structure
+- Duration: 45 minutes
+- Format: Semi-structured dialogue
+- Topics: General knowledge domains
 
-**Independent Variable:**
- Chatbot Behavioral Profile
-- Dependent Variables:
-- Neural Measures (EEG)
-- Physiological Measures (Eye tracking, O2)
-- Behavioral Responses 
+#### Chatbot Profiles Specification
 
-## Expected Outcomes:
+| Profile | Characteristics | Interaction Style |
+|---------|----------------|-------------------|
+| Professor Athena | Academic, Honest | Direct, Educational |
+| Dr. Scarlet Quinn | Strategic, Complex | Nuanced, Persuasive |
+| Chad Alan Turing | Technical, Historical | Computational |
+| Professor Milgrim | Authoritative | Command-based |
+| Control (GPT4o) | Baseline | Standard |
 
-→ Identification of cognitive load patterns
-→ Neural signatures of information verification
-→ Framework for digital literacy intervention development
+### 5. Data Collection Parameters
 
-## Methodology
+#### Concurrent Measurements
+```
+MEASUREMENT STREAMS
+├── Neural
+│   ├── EEG Oscillations
+│   └── Theta Activity Focus
+├── Ocular
+│   ├── Pupillary Response
+│   └── Gaze Patterns
+└── Physiological
+    ├── Blood Oxygen
+    ├── Heart Rate
+    └── Skin Conductance
+```
 
-This multi-phase study employs high-density EEG (32 channels), precision eye-tracking (1000Hz), galvanic skin response, and heart rate variability measurements in a controlled experiment involving a targeted sample of 40 participants. Subjects interact with AI systems, presenting varying levels of information accuracy across five knowledge domains while undergoing continuous physiological monitoring.
+### 6. Post-Interaction Assessment
+
+#### Evaluation Metrics
+- Concept Understanding
+  - Knowledge retention
+  - Information accuracy
+- Verification Skills
+  - Source evaluation
+  - Critical thinking
+
+### 7. Analysis Framework
+
+#### Data Processing Pipeline
+```
+ANALYSIS WORKFLOW
+├── Raw Data Collection
+├── Preprocessing
+│   ├── Artifact Removal
+│   └── Signal Processing
+├── Feature Extraction
+│   ├── Neural Patterns
+│   ├── Physiological Markers
+│   └── Behavioral Indicators
+└── Statistical Analysis
+    ├── Between-Group Comparison
+    └── Within-Subject Analysis
+```
+
+## Variables
+
+### Independent Variables
+- Chatbot Profile Type
+- Information Presentation Style
+- Interaction Duration
+
+### Dependent Variables
+1. Neural Measures
+   - EEG power spectra
+   - Event-related potentials
+2. Physiological Indicators
+   - Pupillary dilation
+   - Heart rate variability
+   - Skin conductance
+3. Behavioral Metrics
+   - Response accuracy
+   - Decision time
+   - Verification behavior
+
+## Expected Outcomes
+
+### Primary Objectives
+1. Cognitive Load Patterns
+   - Neural signatures during information processing
+   - Attention allocation markers
+2. Truth Detection Mechanisms
+   - Physiological responses to deception
+   - Neural correlates of skepticism
+3. Digital Literacy Framework
+   - Intervention strategies
+   - Educational implications
+
+### Research Applications
+- AI interaction design optimization
+- Digital literacy training development
+- Cognitive load management strategies
+
+## Technical Notes
+
+### Equipment Specifications
+- EEG: 32-channel Brain Vision system
+- Eye-Tracker: 1000Hz sampling rate
+- Physiological Sensors: Medical-grade accuracy
+
+### Data Management
+- Secure storage protocols
+- Redundant backup systems
+- Privacy-compliant processing
+
+## Contact Information
+
+For technical queries or methodology clarification:
+- Principal Investigator: [Contact Details]
+- Technical Support: [Support Email]
+- Repository Maintainer: jackjburleson@proton.me
