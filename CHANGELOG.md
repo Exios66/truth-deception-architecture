@@ -69,8 +69,6 @@
 9. Updated External_URLs/README.md
 10. External_Repositories/README.md
 
-***
-
 ## 0.1.7.1v - 01.03.25
 
 1. Added full RNG Results for both 0-5 & 1-5 (N=50).
@@ -79,8 +77,6 @@
 4. Initialized all five behavioral profiles, though still need full conversational patterns & personality rubrics.
 5. Initialized the Local GPT Python Scripts.
 6. Updated and initialized the requirements.txt file
-
-***
 
 ## 0.1.7v - 01.03.24
 
@@ -91,8 +87,6 @@
 5. Added Full 1-5 Subjects Utilized
 6. Added Further GitHub Repositories and External Resources
 7. Added External Access URLs and Entry Links
-
-***
 
 ## 0.1.6v - 01.03.24
 
@@ -106,8 +100,6 @@
    - Fixed link fragment formatting (MD051)
    - Updated placeholder text formatting
    - Improved overall markdown syntax compliance
-
-***
 
 ## 0.1.5v - 01.03.24
 
@@ -125,8 +117,6 @@
    - Added external resource linking
    - Standardized markdown formatting
 
-***
-
 ## 0.1.4v - 01.03.24
 
 ### Code Infrastructure and Testing
@@ -137,8 +127,6 @@
    - Implemented type hints and documentation
    - Created random number generator utility
 
-***
-
 ## 0.1.3v - 01.03.24
 
 ### Database and Documentation
@@ -148,8 +136,6 @@
    - Added Geography question set (GEO-v1)
    - Standardized question difficulty levels
    - Implemented consistent formatting
-
-***
 
 ## 0.1.2v - 01.03.24
 
@@ -163,8 +149,6 @@
 
 ## 0.1.1v - 01.03.24
 
-***
-
 ### Documentation Structure
 
 1. Wiki and External Resources
@@ -172,8 +156,6 @@
    - Created comprehensive project documentation
    - Enhanced external resource organization
    - Updated CustomGPT documentation
-
-***
 
 ## 0.1.0v - 01.03.24
 
@@ -184,8 +166,6 @@
    - Implemented Scarlet profile variations (SQ-MP-v1)
    - Enhanced scenario complexity
    - Updated control parameters
-
-***
 
 ## 0.0.4v - 01.03.24
 
@@ -206,8 +186,6 @@
    - Added randomization and question management tools
    - Created requirements.txt with core dependencies
 
-***
-
 ## 0.0.3v - 01.03.24
 
 ### Documentation and Repository Structure
@@ -217,8 +195,6 @@
    - Updated component descriptions
    - Improved usage instructions
    - Enhanced contributing guidelines
-
-***
 
 ## 0.0.2v - 01.02.24
 
@@ -234,8 +210,6 @@
 3. External Resources
    - Added External_URLs directory
    - Created custom-gpt-links.md
-
-***
 
 ## 0.0.1v - 01.02.24
 
