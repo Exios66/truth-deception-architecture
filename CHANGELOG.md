@@ -1,12 +1,60 @@
 # Changelog - The Neural Architecture Underpinning Truth and Deception Detection
 
-## Jack J. Burleson / Lucius J. Morningstar
+## [Unreleased]
 
-## Unreleased
+### Added
 
-1. README for RNG csv Results Documentation
-2. README for Claude & OpenAi Docs
-3. File Naming Abbreviation Standardization
+- Survey Materials comprehensive documentation
+- Scoring scripts for all personality measures
+- Detailed implementation guidelines for each survey
+- Data collection and analysis protocols
+
+### Fixed
+
+- Markdown linting errors (MD040) across documentation
+- Code block language specifications
+- Documentation formatting standardization
+
+## [v0.1.7.4] - 2024-01-03
+
+### Added
+
+- Complete survey instruments implementation
+  - FAD-Plus Scale
+  - AI Opinion Survey
+  - Big Five Inventory
+  - Cognitive Reflection Test
+  - Need for Cognition Scale
+  - Actively Open-minded Thinking Scale
+- R scoring template with comprehensive functions
+- Quality control procedures for all measures
+
+### Fixed
+
+- Markdown compliance issues
+- Documentation structure
+- File naming conventions
+
+## [v0.1.7.3] - 2024-01-03
+
+### Added
+
+1. Consolidated root file base for optimized navigation
+1. Custom Wiki Footer and Sidebar
+1. Updated External_URLs/README.md
+1. External_Repositories/README.md
+
+### Fixed
+
+1. Numerous Markdown Linter Fixes
+1. Standardized File Naming System
+1. Formalized Repository Structure
+1. Removed Excess Files & Consolidated Structure
+
+### Changed
+
+1. Improved Wiki Footer with badges and banners
+1. Improved root Repository README
 
 ## v0.1.7.3 - 01.03.25
 

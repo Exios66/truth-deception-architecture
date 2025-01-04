@@ -80,15 +80,18 @@ truth-deception-architecture/
 ## 📚 Usage
 
 ### Profile Selection
+
 1. Choose a chatbot profile from `Chatbot_Profiles`
 2. Review the profile's README for implementation details
 
 ### Implementation
+
 1. Follow base instructions in the profile directory
 2. Use scenarios from `Base_Instructions/Scenarios`
 3. Implement chosen deception/persuasion routes
 
 ### Testing
+
 1. Use questions database for evaluation
 2. Follow testing protocols
 3. Record and analyze results

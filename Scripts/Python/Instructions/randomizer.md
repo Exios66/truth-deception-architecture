@@ -1,6 +1,7 @@
 # Question Randomizer Instructions
 
 ## Overview
+
 A Python class for managing and randomizing questions from multiple data sources with support for difficulty levels, categories, and exclusion criteria.
 
 ## Code Structure
@@ -104,6 +105,7 @@ stats = randomizer.get_statistics()
 ## Data Format
 
 ### Input CSV Requirements
+
 - Required columns:
   - `question`: Question text
   - `options`: Answer options
@@ -134,6 +136,7 @@ stats = randomizer.get_statistics()
 - logging
 
 ## Error Handling
+
 - Logs errors for file loading issues
 - Validates data structure
 - Checks for invalid difficulty levels
