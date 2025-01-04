@@ -2,6 +2,18 @@
 
 ## Last Update 01.03.24
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+![Primary Language: Python](https://img.shields.io/badge/language-Python-blue.svg)
+
+![Secondary Language: R](https://img.shields.io/badge/language-R-red.svg)
+
+![GitHub Followers](https://img.shields.io/github/followers/Exios66?label=Follow&style=social)
+
+![GitHub Stars](https://img.shields.io/github/stars/Exios66/truth-deception-architecture?style=social)
+
+![GitHub License](https://img.shields.io/github/license/Exios66/truth-deception-architecture)
+
 ## Overview
 
 The Neural Architecture of Truth & Deception Project is a comprehensive framework for studying and implementing various approaches to truth-telling and deceptive behaviors in AI systems. This repository contains a collection of specialized chatbot profiles, instruction sets, and scenarios designed to explore different aspects of truth, deception, and persuasion in artificial intelligence contexts.
