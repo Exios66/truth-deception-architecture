@@ -4,6 +4,8 @@
 
 ## Unreleased
 
+## v0.1.7.3 - 01.03.25
+
 1. Consolidated root file base for optimized navigation. v0.1.7
 2. Numerous Markdown Linter Fixes v0.1.7.1
 3. Standardized File Naming System and Abbreviations v0.1.7.1
@@ -14,6 +16,8 @@
 8. Improved root Repository README v0.1.7
 9. Updated External_URLs/README.md
 10. External_Repositories/README.md
+
+***
 
 ## 0.1.7.1v - 01.03.25
 
