@@ -4,6 +4,10 @@
 
 ## Unreleased
 
+1. README for RNG csv Results Documentation
+2. README for Claude & OpenAi Docs
+3. File Naming Abbreviation Standardization
+
 ## v0.1.7.3 - 01.03.25
 
 1. Consolidated root file base for optimized navigation. v0.1.7
