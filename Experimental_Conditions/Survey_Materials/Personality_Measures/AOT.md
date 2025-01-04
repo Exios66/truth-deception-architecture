@@ -2,8 +2,7 @@
 
 ## Citation
 
-Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225-247.
-Baron, J. (1993). Why teach thinking? An essay. Applied Psychology, 42(3), 191-214.
+Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225–247. https://doi.org/10.1080/13546780600780796
 
 ## Description
 
