@@ -24,6 +24,7 @@ The subdirectory is organized into the following folders and files:
 ## Purpose
 
 The Further_Research subdirectory is designed to:
+
 1. Enhance Research Depth: Consolidate external research documents and references
 2. Streamline Access: Provide clear structure and easy navigation for interdisciplinary materials
 3. Support Development: Offer insights and tools relevant to extending the Truth-Deception Architecture
@@ -32,14 +33,17 @@ The Further_Research subdirectory is designed to:
 ## Key Features
 
 ### External_Docs
+
 - Organizes foundational documents for specific frameworks like Claude and OpenAI
 - Enables contributors to build upon the provided documentation
 
 ### External_Repositories
+
 - Links to useful repositories and frameworks with annotated guides
 - Includes markdown files summarizing key functionality and applications
 
 ### Multi-Platform
+
 - Resources for ensuring compatibility and deployment across various platforms
 - Guides tailored to streamline implementation
 
@@ -61,6 +65,7 @@ cd Multi-Platform
 ```
 
 ### 3. Adding New Resources
+
 - For external documents, place them in the appropriate folder
 - For external repositories, summarize insights in a markdown file
 
@@ -83,8 +88,9 @@ Contributors are encouraged to:
 ## Contact Information
 
 For questions, issues, or contributions, feel free to reach out:
+
 - GitHub Profile: [Exios66](https://github.com/Exios66)
-- Business Email: jackjburleson@proton.me
+- Business Email: <jackjburleson@proton.me>
 
 ## Acknowledgments
 

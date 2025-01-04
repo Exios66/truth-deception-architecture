@@ -8,7 +8,7 @@ This directory contains all survey instruments and assessment materials used in 
 
 ## Directory Structure
 
-```bash
+```shell
 Survey_Materials/
 ├── Free_Will_Surveys/        # Surveys measuring beliefs about free will and determinism
 ├── Ai_Opinion_Survey/        # Assessments of attitudes toward AI and automation

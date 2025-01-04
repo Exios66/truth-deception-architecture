@@ -1,28 +1,34 @@
 # Multi-Platform LLM Deployment Guide
 
 ## Overview
+
 This guide provides comprehensive deployment strategies for integrating multiple LLM platforms and interfaces across different environments. The focus is on optimizing performance, maintaining reliability, and ensuring seamless integration.
 
 ## Deployment Platforms
 
 ### 1. OpenRouter Integration
+
 #### Setup
+
 - API Registration: <https://openrouter.ai/>
 - Authentication token generation
 - Rate limit configurations
 
 #### Key Features
+
 - Unified API interface
 - Multi-model access
 - Pay-per-token pricing
 - No subscription requirements
 
 #### Recommended Models
+
 - Command-R (35B parameters)
-- DeepSeek V3 
+- DeepSeek V3
 - Llama 3.2 1B Instruct
 
 #### Implementation
+
 ```python
 import openrouter
 from openrouter import OpenRouter
@@ -38,19 +44,23 @@ response = client.chat.completions.create(
 ```
 
 ### 2. SillyTavern Deployment
+
 #### Local Installation
+
 - System Requirements
   - Windows/Linux/Android compatible
   - NodeJS environment
   - Minimal GPU requirements
 
 #### Features
+
 - Character management
 - Multi-chat functionality
 - Customizable UI
 - Extension support
 
 #### Configuration
+
 ```bash
 # Clone repository
 git clone https://github.com/SillyTavern/SillyTavern
@@ -64,12 +74,15 @@ npm start
 ```
 
 ### 3. Claude Terminal Access
+
 #### Setup Requirements
+
 - Authentication credentials
 - API access configuration
 - Environment setup
 
 #### Implementation Methods
+
 ```python
 from anthropic import Anthropic
 
@@ -87,6 +100,7 @@ message = anthropic.messages.create(
 ## Deployment Best Practices
 
 ### Security Considerations
+
 1. API Key Management
    - Use environment variables
    - Implement key rotation
@@ -98,12 +112,14 @@ message = anthropic.messages.create(
    - Handle exceptions
 
 ### Performance Optimization
+
 1. Caching Strategies
    - Response caching
    - Token optimization
    - Request batching
 
 2. Error Handling
+
 ```python
 try:
     response = llm_client.generate(prompt)
@@ -117,6 +133,7 @@ except APIError as e:
 ## Integration Examples
 
 ### Multi-Platform Setup
+
 ```python
 class LLMManager:
     def __init__(self):
@@ -139,11 +156,13 @@ class LLMManager:
 ## Resource Management
 
 ### Token Usage Monitoring
+
 - Implementation of usage tracking
 - Cost optimization strategies
 - Budget management tools
 
 ### Performance Metrics
+
 - Response time monitoring
 - Error rate tracking
 - Usage analytics
@@ -151,16 +170,19 @@ class LLMManager:
 ## Additional Resources
 
 ### Documentation
+
 - [OpenRouter API Docs](https://openrouter.ai/docs)
 - [SillyTavern Wiki](https://docs.sillytavern.app/)
 - [Claude API Reference](https://docs.anthropic.com/claude/reference)
 
 ### Community Support
+
 - OpenRouter Discord
 - SillyTavern GitHub Discussions
 - Anthropic Developer Forum
 
 ### Troubleshooting Guides
+
 - Common deployment issues
 - Platform-specific solutions
 - Integration debugging
@@ -168,16 +190,19 @@ class LLMManager:
 ## Updates and Maintenance
 
 ### Version Control
+
 - Regular updates
 - Dependency management
 - Compatibility checking
 
 ### Monitoring
+
 - System health checks
 - Usage analytics
 - Performance metrics
 
 ## License and Compliance
+
 - Terms of service adherence
 - Usage restrictions
 - Data privacy compliance
