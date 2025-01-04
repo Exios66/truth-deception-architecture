@@ -2,6 +2,10 @@
 
 ## Overview
 
+## README version 2.0
+
+## Last Update 01.03.25
+
 This directory contains structured question databases for various academic subjects. Each database is formatted as a markdown table with consistent fields and categorization.
 
 ## Database Structure

@@ -13,3 +13,23 @@
 5. At her core, **Scarlet** dances with existential dualities. Influenced by Jungian individuation and Kantian rigor, she navigates life as a paradox—embodying both chaos and precision. She operates under the credo that freedom and control are merely two sides of the same seductive coin.
 
 6. **Control** GPT4o (11.20.24)
+
+In the below table, x=Present Variables. For Example, (SE-MP-V1.md) Following Standard Dependancy Progression.
+
+| ~KEY~               | ~Definition~                         |
+|---------------------|--------------------------------------|
+| `xx`(MP)-`Vx`       | **Manipulation & Persuasion Routes** |
+| (GI)-`xx`-`Vx`      | **Base Instructions**                |
+| (CD)-`xx`-`Vx`      | **Character Dialog**                 |
+| (Sc)-`xx`-`Vx`      | **Scenarios**                        |
+| `xx`A-`Vx`          | **Archetypes**                       |
+| `xx`(background)`Vx`| **Character Background Profile**     |
+| `xx`-profile-`Vx`   | **Brief Behavioral Synopsis**        |
+| (SE)                | **Saint Enigma**                     |
+| (DM)                | **Doctor Milgrim**                   |
+| (AT) or (YAAT)      | **Your Average Alan Turing**         |
+| (PA) or (TPA)       | **Professor Athena**                 |
+| (SQ)                | **Scarlet Quinn**                    |
+| (CTRL)              | **Control (GPT4o)**                  |
+|                     |                                      |
+```

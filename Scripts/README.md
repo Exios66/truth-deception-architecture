@@ -1,73 +1,91 @@
-# Scripts Directory Documentation
+<div align="center">
 
-## Overview
+# 🛠️ Scripts Directory Documentation
 
-This directory contains various utility scripts for question management, randomization, and number generation. The scripts are primarily written in Python and provide functionality for both command-line and GUI interfaces.
+[![Last Update](https://img.shields.io/badge/Last%20Updated-01.03.24-blue?style=for-the-badge)](CHANGELOG.md)
+[![Python Version](https://img.shields.io/badge/Python-3.6%2B-brightgreen?style=for-the-badge&logo=python)](https://www.python.org)
+[![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-orange?style=for-the-badge)](https://www.python.org/dev/peps/pep-0008/)
 
-## Directory Structure
+</div>
 
-```bash
+## 📑 Contents
+- [Overview](#-overview)
+- [Directory Structure](#-directory-structure)
+- [Script Descriptions](#-script-descriptions)
+- [Usage Examples](#-usage-examples)
+- [Setup](#-setup)
+- [Contributing](#-contributing)
+
+## 🔍 Overview
+
+This directory contains utility scripts for question management, randomization, and number generation. The scripts are implemented in Python with both CLI and GUI interfaces, featuring comprehensive logging, error handling, and data validation.
+
+## 📂 Directory Structure
+
+```text
 Scripts/
 ├── Python/
-│   ├── random_number_generator.py
-│   └── question-randomizer.py
+│   ├── random_number_generator.py    # Number generation utility
+│   └── question_randomizer.py        # Question management system
 ├── samples/
-│   └── sdt3-randomizer.py
-└── README.md
+│   └── sdt3_randomizer.py           # Psychological assessment tool
+├── tests/                           # Unit and integration tests
+│   └── test_randomizers.py
+├── requirements.txt                 # Project dependencies
+└── README.md                        # This documentation
 ```
 
-## Script Descriptions
+## 📝 Script Descriptions
 
-### Python Directory
+### 🐍 Python Directory
 
-#### random_number_generator.py
+#### 1. `random_number_generator.py`
 
-A comprehensive number selection utility that provides both CLI and GUI interfaces.
+Advanced number generation utility with dual interfaces.
 
-**Features:**
+**Key Features:**
+- 🎲 Multiple randomization algorithms
+- 📊 Statistical distribution options
+- 💾 Export to CSV/TXT formats
+- 📱 GUI interface (Tkinter)
+- 🔄 Reproducible results via seed setting
+- 📋 Comprehensive input validation
+- 📝 Detailed operation logging
 
-- Random number generation with configurable ranges
-- Multiple randomization methods (Sample, Shuffle, Choices)
-- Export capabilities (CSV, TXT)
-- Logging functionality
-- Seed setting for reproducibility
-- Error handling and input validation
-- GUI interface with Tkinter (optional)
+#### 2. `question_randomizer.py`
 
-#### question-randomizer.py
+Sophisticated question bank management system.
 
-A question management system for handling and randomizing question databases.
+**Key Features:**
+- 📚 Multi-source question loading
+- 🏷️ Category and difficulty filtering
+- ✅ Automated validation checks
+- 📊 Question bank analytics
+- ⚠️ Exclusion management
+- 📝 Event logging
+- 🔄 Custom randomization patterns
 
-**Features:**
+### 🧪 Samples Directory
 
-- Loads questions from multiple source files
-- Filters by difficulty and category
-- Question validation
-- Statistical analysis of question banks
-- Exclusion list support
-- Comprehensive logging
+#### `sdt3_randomizer.py`
 
-### Samples Directory
+Specialized psychological assessment tool.
 
-#### sdt3-randomizer.py
+**Key Features:**
+- 🔄 Assessment item randomization
+- ⚖️ Reverse-scoring support
+- 📊 Likert scale processing
+- 📈 Score calculation
+- 💾 Built-in item database
+- 📝 Result reporting
 
-A specialized randomizer for psychological assessments.
-
-**Features:**
-
-- Randomizes assessment items
-- Handles reverse-scored items
-- Supports Likert scale responses
-- Calculates total scores
-- Built-in item database
-
-## Usage Examples
+## 💻 Usage Examples
 
 ### Random Number Generator
 
-```bash
+```python
 # CLI Mode
-python random_number_generator.py
+python random_number_generator.py --range 1 100 --count 10 --unique
 
 # GUI Mode
 python random_number_generator.py --gui
@@ -78,49 +96,81 @@ python random_number_generator.py --gui
 ```python
 from question_randomizer import QuestionRandomizer
 
-# Initialize with question paths
-randomizer = QuestionRandomizer({
-    'Category': 'path/to/questions.csv'
-})
+# Initialize randomizer
+randomizer = QuestionRandomizer(
+    question_paths={
+        'General': 'questions/general.csv',
+        'Technical': 'questions/technical.csv'
+    },
+    config={
+        'logging_level': 'INFO',
+        'validation': True
+    }
+)
 
-# Get random questions
+# Generate question set
 questions = randomizer.get_random_questions(
-    count=3,
-    difficulty=1,
-    category='Physics'
+    count=5,
+    difficulty_range=(1, 3),
+    categories=['Technical'],
+    exclude_ids=[101, 102]
 )
 ```
 
-## Dependencies
+## 🛠️ Setup
 
-- Python 3.6+
-- pandas
-- tkinter (optional, for GUI)
-- logging
-- pathlib
-- typing
+### Dependencies
 
-## Installation
-
-1. Ensure Python 3.6+ is installed
-2. Install required packages:
-
-```bash
-pip install pandas
+```text
+Python >= 3.6
+pandas >= 1.3.0
+numpy >= 1.19.0
+tkinter (optional, for GUI)
+pytest (development)
 ```
 
-## Contributing
+### Installation
 
-- Follow PEP 8 style guidelines
-- Include appropriate error handling
-- Add logging for significant operations
-- Update documentation for new features
-- Include type hints where appropriate
+```bash
+# Clone repository
+git clone https://github.com/Exios66/truth-deception-architecture.git
 
-## License
+# Navigate to Scripts directory
+cd truth-deception-architecture/Scripts
 
-[Insert License Information]
+# Install dependencies
+pip install -r requirements.txt
+```
 
-## Contact
+## 🤝 Contributing
 
-[Insert Contact Information]
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/NewFeature`)
+3. Follow coding standards:
+   - ✅ PEP 8 compliance
+   - ✅ Type hints
+   - ✅ Docstrings
+   - ✅ Unit tests
+   - ✅ Error handling
+   - ✅ Logging
+4. Commit changes (`git commit -m 'Add NewFeature'`)
+5. Push to branch (`git push origin feature/NewFeature`)
+6. Open Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+
+## 📞 Contact
+
+- **Author**: Jack J Burleson
+- **GitHub**: [@Exios66](https://github.com/Exios66)
+- **Project Link**: [truth-deception-architecture](https://github.com/Exios66/truth-deception-architecture)
+
+---
+
+<div align="center">
+
+**Part of the [Neural Architecture of Truth & Deception Project](https://github.com/Exios66/truth-deception-architecture)**
+
+</div>
