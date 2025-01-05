@@ -18,18 +18,22 @@ Scripts/
 ## Script Descriptions
 
 ### question-randomizer.py
+
 Script for randomizing question presentation during experimental trials.
 
 #### Features
+
 - Question pool randomization
 - Balanced distribution algorithms
 - Session-specific question sets
 - Cross-condition randomization
 
 ### random_number_generator.py
+
 Core RNG implementation for experimental conditions.
 
 #### Features
+
 - True random number generation
 - Configurable parameters
 - Logging capabilities
@@ -52,18 +56,22 @@ python random_number_generator.py --condition EC-1-5 --trials 100
 ```
 
 ## Dependencies
+
 - Python 3.8+
 - NumPy
 - Pandas
 - SciPy
 
 ## Data Output
+
 - CSV format
 - Timestamped files
 - Condition-specific folders
 - Backup functionality
 
 ## Contact
+
 For technical support or contributions:
+
 - Repository: [Exios66](https://github.com/Exios66)
-- Email: jackjburleson@proton.me
+- Email: <jackjburleson@proton.me>

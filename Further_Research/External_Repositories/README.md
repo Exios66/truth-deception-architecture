@@ -3,20 +3,24 @@
 ## Last Updated: 01.03.25
 
 ## Overview
+
 A curated collection of external repositories and resources that complement the Truth-Deception Architecture project. These repositories provide additional tools, frameworks, and research materials for AI language model implementation and research.
 
 ## Repository Index
 
 ### 1. Agentarium Framework
+
 A comprehensive framework for developing and deploying AI agents.
 
 #### Key Features
+
 - Agent orchestration
 - Behavior modeling
 - Multi-agent communication
 - Performance analytics
 
 #### Implementation
+
 ```python
 from agentarium import AgentFramework
 
@@ -36,15 +40,18 @@ agent.deploy(
 ```
 
 ### 2. Claude Cookbook
+
 Collection of proven patterns and implementations for Claude AI.
 
 #### Contents
+
 - Prompt engineering patterns
 - Response optimization
 - Context management
 - Error handling
 
 #### Example Usage
+
 ```python
 from claude_cookbook import PromptTemplates
 
@@ -59,15 +66,18 @@ formatted_prompt = template.format(
 ```
 
 ### 3. Cline Development Tools
+
 Autonomous coding agent toolkit for IDE integration.
 
 #### Features
+
 - Code analysis
 - Suggestion generation
 - Pattern recognition
 - Documentation generation
 
 #### Implementation Example
+
 ```python
 from cline import CodeAnalyzer
 
@@ -87,6 +97,7 @@ analysis = analyzer.examine(
 ## Integration Guidelines
 
 ### API Access Configuration
+
 ```python
 class RepositoryManager:
     def __init__(self):
@@ -102,6 +113,7 @@ class RepositoryManager:
 ```
 
 ### Cross-Repository Implementation
+
 ```python
 class TruthAnalysisSystem:
     def __init__(self, repo_manager):
@@ -127,16 +139,19 @@ class TruthAnalysisSystem:
 ## Resource Links
 
 ### Official Documentation
+
 - [Agentarium Docs](https://docs.agentarium.ai)
 - [Claude API Guide](https://docs.anthropic.com/claude)
 - [Cline Development Hub](https://cline.dev/docs)
 
 ### Community Resources
+
 - GitHub Discussions
 - Development Forums
 - User Guides
 
 ### Research Papers
+
 - Agent Behavior Analysis
 - Truth Detection in LLMs
 - Code Pattern Recognition
@@ -144,16 +159,19 @@ class TruthAnalysisSystem:
 ## Best Practices
 
 ### Security
+
 - API key management
 - Access control
 - Data privacy
 
 ### Performance
+
 - Resource optimization
 - Response caching
 - Error handling
 
 ### Integration
+
 - Version compatibility
 - Dependency management
 - Update protocols
@@ -161,11 +179,13 @@ class TruthAnalysisSystem:
 ## Contribution Guidelines
 
 ### Repository Standards
+
 - Code formatting
 - Documentation requirements
 - Testing protocols
 
 ### Submission Process
+
 - Fork repository
 - Create feature branch
 - Submit pull request
@@ -173,16 +193,19 @@ class TruthAnalysisSystem:
 ## Maintenance
 
 ### Version Control
+
 - Regular updates
 - Dependency tracking
 - Compatibility checking
 
 ### Documentation
+
 - API changes
 - Feature updates
 - Implementation guides
 
 ## License Information
+
 Each repository maintains its own licensing terms. Please refer to individual repositories for specific license details.
 
 ---

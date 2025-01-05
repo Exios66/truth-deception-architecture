@@ -1,6 +1,7 @@
 # External Documentation Hubs README
 
 ## Overview
+
 This directory contains comprehensive documentation and resources related to Claude and OpenAI language models, organized to facilitate research and implementation within the Truth-Deception Architecture framework.
 
 ## Directory Structure
@@ -22,6 +23,7 @@ This directory contains comprehensive documentation and resources related to Cla
 ## Purpose
 
 This documentation collection serves to:
+
 1. Provide technical reference materials for both Claude and OpenAI implementations
 2. Document proven patterns and approaches
 3. Support research into truth/deception architectures
@@ -30,11 +32,13 @@ This documentation collection serves to:
 ## Usage Guidelines
 
 ### For Researchers
+
 - Reference the relevant model-specific documentation
 - Cross-reference techniques between models
 - Contribute new findings and patterns
 
 ### For Developers
+
 - Use cookbooks for implementation guidance
 - Follow documented best practices
 - Leverage proven prompting techniques
