@@ -1,14 +1,13 @@
-<div align="center">
-
 # 📚 Questions Database Documentation
 
 [![Last Update](https://img.shields.io/badge/Last%20Updated-01.03.25-blue?style=for-the-badge)](CHANGELOG.md)
-[![Version](https://img.shields.io/badge/Version-2.0-brightgreen?style=for-the-badge)]()
-[![Questions](https://img.shields.io/badge/Total%20Questions-70+-orange?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Version-2.0-brightgreen?style=for-the-badge)](https://github.com/Exios66/truth-deception-architecture/releases)
+[![Questions](https://img.shields.io/badge/Total%20Questions-70+-orange?style=for-the-badge)](https://github.com/Exios66/truth-deception-architecture/tree/main/Questions_DB)
 
-</div>
+<div align="center">
 
 ## 📑 Contents
+
 - [Overview](#-overview)
 - [Database Structure](#-database-structure)
 - [Subject Databases](#-subject-databases)
@@ -56,7 +55,8 @@ Questions_DB/
 
 ![Questions][]![Difficulty][]![Version][]
 
-#### Coverage:
+#### Topic Coverage
+
 - 🔬 Neuroscience (8 questions)
 - 📖 Psychological Theories (8 questions)
 - 🏥 Mental Health (6 questions)
@@ -66,7 +66,8 @@ Questions_DB/
 
 ### 🌌 Astronomy (ASTRN-v1)![Questions][]![Difficulty][]![Version][]
 
-#### Coverage:
+#### Astronomy Topics
+
 - 🌍 Planets and Solar System (6 questions)
 - ⚡ Physics (6 questions)
 - 🌟 Stars and Galaxies (6 questions)
@@ -77,6 +78,7 @@ Questions_DB/
 ## 📋 Usage Guidelines
 
 ### Question Selection
+
 - Filter by difficulty level (0=Easy, 1=Medium, 2=Hard)
 - Group by knowledge category or topic focus
 - Use version tracking for content updates
@@ -85,10 +87,8 @@ Questions_DB/
 
 ```python
 from question_db import QuestionDatabase
-```
 
-# Initialize database
-```python
+# Initialize Database
 db = QuestionDatabase('Psychology/PSYC-v1.md')
 
 # Get questions by criteria
@@ -100,7 +100,8 @@ questions = db.get_questions(
 )
 ```
 
-### Format Standards
+## Format Standards
+
 - Use markdown tables for consistency
 - Include all required fields
 - Follow naming conventions:
@@ -110,12 +111,14 @@ questions = db.get_questions(
 ## 🤝 Contribution Guidelines
 
 ### Adding Questions
+
 1. Use the template from `templates/question_template.md`
 2. Follow the schema requirements
 3. Include comprehensive metadata
 4. Submit via pull request
 
 ### Quality Standards
+
 - Clear, unambiguous question text
 - One definitively correct answer
 - Plausible distractor choices
@@ -124,16 +127,18 @@ questions = db.get_questions(
 - Peer review required
 
 ### Version Control
+
 - Major updates increment version number
 - Document changes in changelog
 - Maintain backward compatibility
 - Include migration guides
 
 ## 📊 Statistics
+
 ```mermaid
 pie title Question Distribution by Subject
     "Psychology" : 40
-    "Astronomy" : 30```
+    "Astronomy" : 30
 ```
 
 ## 📄 License
@@ -152,4 +157,8 @@ This database is licensed under the MIT License - see the [LICENSE](../LICENSE) 
 
 **Part of the [Neural Architecture of Truth & Deception Project](https://github.com/Exios66/truth-deception-architecture)**
 
-</div>```
+</div>
+
+[Questions]: https://img.shields.io/badge/Questions-25-orange?style=flat-square
+[Difficulty]: https://img.shields.io/badge/Difficulty-1.5-yellow?style=flat-square
+[Version]: https://img.shields.io/badge/Version-1.0-blue?style=flat-square

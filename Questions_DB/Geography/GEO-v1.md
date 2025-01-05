@@ -1,4 +1,4 @@
-# Geography Questions DatabaseSE
+# Geography Questions Database
 
 | ID   | Question                                             | Correct Answer               | Choice 1                | Choice 2              | Choice 3            | Difficulty | Knowledge Category | Topic Focus            |
 |------|-----------------------------------------------------|------------------------------|-------------------------|-----------------------|---------------------|------------|---------------------|------------------------|
