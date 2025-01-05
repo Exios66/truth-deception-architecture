@@ -1,6 +1,6 @@
 # Agentarium Multi Agent Framework
 
-https://github.com/Thytu/Agentarium
+<https://github.com/Thytu/Agentarium>
 
 # 🌿 Agentarium
 
@@ -12,10 +12,10 @@ https://github.com/Thytu/Agentarium
 
 A powerful Python framework for managing and orchestrating AI agents with ease. Agentarium provides a flexible and intuitive way to create, manage, and coordinate interactions between multiple AI agents in various environments.
 
-[Installation](#installation) •
-[Quick Start](#quick-start) •
-[Features](#features) •
-[Examples](#examples) •
+[Installation](#-installation) •
+[Quick Start](#-quick-start) •
+[Features](#-features) •
+[Examples](#-examples) •
 [Documentation](#documentation) •
 [Contributing](#contributing)
 
@@ -55,6 +55,7 @@ agent1.act() # Same as agent.talk_to but it's the agent who decides what to do
 ## 📚 Examples
 
 ### Basic Chat Example
+
 Create a simple chat interaction between agents:
 
 ```python
@@ -69,6 +70,7 @@ bob.act()
 ```
 
 ### Synthetic Data Generation
+
 Generate synthetic data through agent interactions:
 
 ```python
@@ -92,6 +94,7 @@ More examples can be found in the [examples/](examples/) directory.
 ## 📖 Documentation
 
 ### Environment Configuration
+
 Configure your environment using YAML files:
 
 ```yaml

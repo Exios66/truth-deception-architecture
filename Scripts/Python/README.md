@@ -32,7 +32,7 @@ Script for randomizing question presentation during experimental trials.
 
 Core RNG implementation for experimental conditions.
 
-#### Features
+#### RNG Features
 
 - True random number generation
 - Configurable parameters
