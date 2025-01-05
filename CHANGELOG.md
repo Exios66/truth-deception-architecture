@@ -2,14 +2,14 @@
 
 ## [Unreleased]
 
-### Added
+### Unreleased - Added
 
 - Survey Materials comprehensive documentation
 - Scoring scripts for all personality measures
 - Detailed implementation guidelines for each survey
 - Data collection and analysis protocols
 
-### Fixed
+### Unreleased - Fixed
 
 - Markdown linting errors (MD040) across documentation
 - Code block language specifications
@@ -17,14 +17,14 @@
 
 ## [v0.1.8.4] - 2024-01-04
 
-### Added
+### v0.1.8.4 - Added
 
 - Enhanced question randomization algorithms
 - Advanced statistical analysis tools
 - Automated data validation checks
 - Cross-platform compatibility updates
 
-### Fixed
+### v0.1.8.4 - Fixed
 
 - Python script optimization issues
 - Data processing bottlenecks
@@ -32,14 +32,14 @@
 
 ## [v0.1.8.3] - 2024-01-04
 
-### Added
+### v0.1.8.3 - Added
 
 - Multi-platform deployment guidelines
 - Extended API documentation
 - Advanced error handling mechanisms
 - Performance monitoring tools
 
-### Changed
+### v0.1.8.3 - Changed
 
 - Updated dependency requirements
 - Improved code documentation standards
@@ -47,14 +47,14 @@
 
 ## [v0.1.8.2] - 2024-01-04
 
-### Added
+### v0.1.8.2 - Added
 
 - Comprehensive unit testing framework
 - Automated CI/CD pipeline configurations
 - Extended API endpoint coverage
 - Enhanced security protocols
 
-### Fixed
+### v0.1.8.2 - Fixed
 
 - Database connection issues
 - Authentication workflow bugs
@@ -62,14 +62,14 @@
 
 ## [v0.1.8.1] - 2024-01-04
 
-### Added
+### v0.1.8.1 - Added
 
 - Advanced data visualization components
 - Real-time analytics dashboard
 - Extended API functionality
 - Enhanced security features
 
-### Changed
+### v0.1.8.1 - Changed
 
 - Updated database schema
 - Improved error handling
@@ -77,14 +77,14 @@
 
 ## [v0.1.8] - 2024-01-04
 
-### Added
+### v0.1.8 - Added
 
 - Machine learning model integration
 - Advanced data processing pipeline
 - Automated testing framework
 - Extended documentation coverage
 
-### Fixed
+### v0.1.8 - Fixed
 
 - Performance optimization issues
 - Data validation errors
@@ -92,7 +92,7 @@
 
 ## [v0.1.7.4] - 2024-01-03
 
-### Added
+### v0.1.7.4 - Added
 
 - Complete survey instruments implementation
   - FAD-Plus Scale
@@ -104,7 +104,7 @@
 - R scoring template with comprehensive functions
 - Quality control procedures for all measures
 
-### Fixed
+## [v0.1.7.4] - Fixed
 
 - Markdown compliance issues
 - Documentation structure
@@ -112,21 +112,21 @@
 
 ## [v0.1.7.3] - 2024-01-03
 
-### Added
+### v0.1.7.3 - Added
 
 1. Consolidated root file base for optimized navigation
 1. Custom Wiki Footer and Sidebar
 1. Updated External_URLs/README.md
 1. External_Repositories/README.md
 
-### Fixed
+### v0.1.7.3 - Fixed
 
 1. Numerous Markdown Linter Fixes
 1. Standardized File Naming System
 1. Formalized Repository Structure
 1. Removed Excess Files & Consolidated Structure
 
-### Changed
+## [v0.1.7.2] - Changed
 
 1. Improved Wiki Footer with badges and banners
 1. Improved root Repository README

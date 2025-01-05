@@ -1,4 +1,4 @@
-Comprehensive Number Selector
+# Comprehensive Number Selector
 
 Table of Contents
  • Overview
@@ -12,7 +12,7 @@ Table of Contents
  • Error Handling
  • License
 
-Overview
+## Overview
 
 The Comprehensive Number Selector is a versatile Python application designed to help users randomly select numbers based on customizable criteria. Whether you prefer using the command line or a graphical interface, this tool offers flexibility to meet your needs. It’s ideal for generating lottery numbers, random samples for studies, or any scenario requiring random number selection.
 
@@ -122,7 +122,7 @@ The generated sets will be displayed in the terminal. If exported, a confirmatio
 
 Example Session
 
-### Comprehensive Number Selector ###
+# Comprehensive Number Selector
 
 Enter the start of the range [1]:
 Enter the end of the range [15]: 30

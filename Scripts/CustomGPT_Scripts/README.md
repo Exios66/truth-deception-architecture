@@ -124,7 +124,7 @@ analysis = analyzer.analyze_response(response)
 
 ## Directory Structure
 
-```plaintext
+```bash
 CustomGPT_Scripts/
 ├── prompt_engineering/
 │   ├── prompt_generator.py
@@ -153,6 +153,7 @@ CustomGPT_Scripts/
 └── config/
     ├── .env.example
     └── settings.py
+
 ```
 
 ## Related Documentation

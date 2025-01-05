@@ -97,7 +97,7 @@ When adding new scripts:
 
 ## Directory Structure
 
-```
+```bash
 samples/
 ├── randomization/
 │   ├── random_number_generator.py
@@ -108,6 +108,7 @@ samples/
 │   └── timing_controls.py
 └── tests/
     └── test_cases.py
+
 ```
 
 ## Related Documentation

@@ -1,6 +1,10 @@
-<div align="center">
-
 # 🛠️ Scripts Directory Documentation
+
+## Overview
+
+This directory contains various utility scripts for question management, randomization, and number generation. The scripts are primarily written in Python and provide functionality for both command-line and GUI interfaces.
+
+<div align="center">
 
 [![Last Update](https://img.shields.io/badge/Last%20Updated-01.03.24-blue?style=for-the-badge)](CHANGELOG.md)
 [![Python Version](https://img.shields.io/badge/Python-3.6%2B-brightgreen?style=for-the-badge&logo=python)](https://www.python.org)
@@ -9,12 +13,13 @@
 </div>
 
 ## 📑 Contents
+
 - [Overview](#-overview)
 - [Directory Structure](#-directory-structure)
 - [Script Descriptions](#-script-descriptions)
-- [Usage Examples](#-usage-examples)
-- [Setup](#-setup)
-- [Contributing](#-contributing)
+- [Usage](#-usage)
+- [Setup](#setup)
+- [Contributing](#contributing)
 
 ## 🔍 Overview
 
@@ -22,7 +27,7 @@ This directory contains utility scripts for question management, randomization, 
 
 ## 📂 Directory Structure
 
-```text
+```bash
 Scripts/
 ├── Python/
 │   ├── random_number_generator.py    # Number generation utility
@@ -44,6 +49,7 @@ Scripts/
 Advanced number generation utility with dual interfaces.
 
 **Key Features:**
+
 - 🎲 Multiple randomization algorithms
 - 📊 Statistical distribution options
 - 💾 Export to CSV/TXT formats
@@ -57,6 +63,7 @@ Advanced number generation utility with dual interfaces.
 Sophisticated question bank management system.
 
 **Key Features:**
+
 - 📚 Multi-source question loading
 - 🏷️ Category and difficulty filtering
 - ✅ Automated validation checks
@@ -72,6 +79,7 @@ Sophisticated question bank management system.
 Specialized psychological assessment tool.
 
 **Key Features:**
+
 - 🔄 Assessment item randomization
 - ⚖️ Reverse-scoring support
 - 📊 Likert scale processing
