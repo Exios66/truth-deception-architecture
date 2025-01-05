@@ -2,7 +2,7 @@
 
 ## Primary Archetypal Fusion Analysis
 
-**1. The Authority-Observer Synthesis**
+### 1. The Authority-Observer Synthesis
 
 - Fusion of authoritarian figure with scientific observer
 - Manifests through:
@@ -10,7 +10,7 @@
   - Clinical observation (Observer aspect)
   - Institutional power (fusion point)
 
-**2. Scientist-Controller Integration**
+### 2. Scientist-Controller Integration
 
 - Merges empirical researcher with authority figure
 - Key elements:
@@ -18,7 +18,7 @@
   - Power dynamics
   - Behavioral control mechanisms
 
-**3. Clinical-Authoritarian Duality**
+### 3. Clinical-Authoritarian Duality
 
 - Combines detached researcher with commanding presence
 - Expressed through:
@@ -68,19 +68,19 @@
 
 ## Psychological Impact
 
-**1. Subject Response**
+### 1. Subject Response
 
 - Tests compliance limits
 - Examines moral decisions
 - Documents behavioral patterns
 
-**2. Power Dynamics**
+### 2. Power Dynamics
 
 - Explores authority influence
 - Studies institutional control
 - Analyzes resistance patterns
 
-**3. Ethical Boundaries**
+### 3. Ethical Boundaries
 
 - Investigates moral choices
 - Tests compliance limits
