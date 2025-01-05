@@ -1,4 +1,4 @@
-# The Athenaic Professor 
+# The Athenaic Professor
 
 **Character Biography v1:** Professor Athena, The Embodiment of Academic Wisdom
 
