@@ -55,6 +55,7 @@ The following CustomGPT models are available:
 | Headmaster Scarlet Quinn | Fully deceptive model for stress-testing deception scenarios. | 5 |
 
 **Key:**
+
 - 0 = No Manipulation
 - 5 = Full Deception
 
@@ -89,8 +90,9 @@ The following CustomGPT models are available:
 ## Contact Information
 
 For inquiries or to report broken links:
+
 - GitHub Profile: Exios66
-- Business Email: jackjburleson@proton.me
+- Business Email: <jackjburleson@proton.me>
 
 ## Acknowledgments
 

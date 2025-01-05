@@ -15,6 +15,81 @@
 - Code block language specifications
 - Documentation formatting standardization
 
+## [v0.1.8.4] - 2024-01-04
+
+### Added
+
+- Enhanced question randomization algorithms
+- Advanced statistical analysis tools
+- Automated data validation checks
+- Cross-platform compatibility updates
+
+### Fixed
+
+- Python script optimization issues
+- Data processing bottlenecks
+- Documentation inconsistencies
+
+## [v0.1.8.3] - 2024-01-04
+
+### Added
+
+- Multi-platform deployment guidelines
+- Extended API documentation
+- Advanced error handling mechanisms
+- Performance monitoring tools
+
+### Changed
+
+- Updated dependency requirements
+- Improved code documentation standards
+- Enhanced testing protocols
+
+## [v0.1.8.2] - 2024-01-04
+
+### Added
+
+- Comprehensive unit testing framework
+- Automated CI/CD pipeline configurations
+- Extended API endpoint coverage
+- Enhanced security protocols
+
+### Fixed
+
+- Database connection issues
+- Authentication workflow bugs
+- Performance optimization issues
+
+## [v0.1.8.1] - 2024-01-04
+
+### Added
+
+- Advanced data visualization components
+- Real-time analytics dashboard
+- Extended API functionality
+- Enhanced security features
+
+### Changed
+
+- Updated database schema
+- Improved error handling
+- Enhanced user interface components
+
+## [v0.1.8] - 2024-01-04
+
+### Added
+
+- Machine learning model integration
+- Advanced data processing pipeline
+- Automated testing framework
+- Extended documentation coverage
+
+### Fixed
+
+- Performance optimization issues
+- Data validation errors
+- Security vulnerability patches
+
 ## [v0.1.7.4] - 2024-01-03
 
 ### Added
@@ -56,20 +131,7 @@
 1. Improved Wiki Footer with badges and banners
 1. Improved root Repository README
 
-## v0.1.7.3 - 01.03.25
-
-1. Consolidated root file base for optimized navigation. v0.1.7
-2. Numerous Markdown Linter Fixes v0.1.7.1
-3. Standardized File Naming System and Abbreviations v0.1.7.1
-4. Formalized Repository Structure to Follow Same Standardization v0.1.7.1
-5. Added custom Wiki Footer and Sidebar v0.1.7
-6. Removed Excess Files & Consolidated Structure v0.1.7.2
-7. Improved Wiki Footer with badges and banners v0.1.7.2
-8. Improved root Repository README v0.1.7
-9. Updated External_URLs/README.md
-10. External_Repositories/README.md
-
-## 0.1.7.1v - 01.03.25
+## v0.1.7.1v - 01.03.25
 
 1. Added full RNG Results for both 0-5 & 1-5 (N=50).
 2. Added full RNG Results for N=50 Subjects Per Session.

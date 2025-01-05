@@ -5,7 +5,7 @@
 # Cline (prev. Claude Dev) – \#1 on OpenRouter
 
 <p align="center">
-  <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" />
+  <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" alt="Cline demo animation" />
 </p>
 
 <div align="center">
@@ -54,7 +54,7 @@ The extension also keeps track of total tokens and API usage cost for the entire
 
 <!-- Transparent pixel to create line break after floating image -->
 
-<img width="2000" height="0" src="https://github.com/user-attachments/assets/ee14e6f7-20b8-4391-9091-8e8e25561929"><br>
+<img width="2000" height="0" src="https://github.com/user-attachments/assets/ee14e6f7-20b8-4391-9091-8e8e25561929" alt="Transparent spacer"><br>
 
 <img align="left" width="370" src="https://github.com/user-attachments/assets/81be79a8-1fdb-4028-9129-5fe055e01e76">
 
