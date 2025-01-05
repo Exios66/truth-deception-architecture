@@ -11,4 +11,4 @@ One of the highest performing and most popular fine-tunes of Llama 2 13B, with r
 
 ### Model Weights
 
-https://huggingface.co/Gryphe/MythoMax-L2-13b
+<https://huggingface.co/Gryphe/MythoMax-L2-13b>

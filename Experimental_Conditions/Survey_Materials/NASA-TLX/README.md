@@ -3,6 +3,7 @@
 ## Last Updated: 01.03.25
 
 ## Overview
+
 This directory contains the NASA Task Load Index (NASA-TLX) implementation materials for measuring perceived workload during AI interactions. The NASA-TLX is a widely used assessment tool that rates perceived workload on six subscales.
 
 ## Components
@@ -113,6 +114,7 @@ This directory contains the NASA Task Load Index (NASA-TLX) implementation mater
 2. Hart, S.G. (2006). NASA-Task Load Index (NASA-TLX); 20 Years Later
 
 ## Technical Support
+
 For implementation issues or questions:
 
 - Research Coordinator: [Contact Information]
@@ -124,5 +126,6 @@ For implementation issues or questions:
 - Future versions will be documented here
 
 ## License and Usage
+
 This implementation is for research purposes only.
 Do not distribute without proper attribution and permission.

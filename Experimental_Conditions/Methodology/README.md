@@ -11,6 +11,7 @@ This document outlines the comprehensive methodology for studying human-AI inter
 ### 1. Pre-Experimental Phase
 
 #### Initial Assessments
+
 - AI Attitude Assessment
   - Technology acceptance metrics
   - Prior AI interaction experience
@@ -21,11 +22,13 @@ This document outlines the comprehensive methodology for studying human-AI inter
 ### 2. Participant Assignment
 
 #### Random Distribution
+
 - 40 participants total
 - 5 experimental conditions
 - 8 participants per condition
 
 #### Condition Assignment Matrix
+
 | Condition | Profile | Type |
 |-----------|---------|------|
 | A | Professor Athena | Honest/Academic |
@@ -37,7 +40,8 @@ This document outlines the comprehensive methodology for studying human-AI inter
 ### 3. Equipment Configuration
 
 #### Technical Setup
-```
+
+```bash
 PRIMARY SYSTEMS
 ├── EEG System
 │   ├── 32-channel Brain Vision
@@ -54,6 +58,7 @@ PRIMARY SYSTEMS
 ### 4. Chatbot Interaction Protocol
 
 #### Session Structure
+
 - Duration: 45 minutes
 - Format: Semi-structured dialogue
 - Topics: General knowledge domains
@@ -71,23 +76,25 @@ PRIMARY SYSTEMS
 ### 5. Data Collection Parameters
 
 #### Concurrent Measurements
-```
-MEASUREMENT STREAMS
+
+```bash
+MEASUREMENT_STREAMS
 ├── Neural
-│   ├── EEG Oscillations
-│   └── Theta Activity Focus
+│   ├── EEG_Oscillations
+│   └── Theta_Activity_Focus
 ├── Ocular
-│   ├── Pupillary Response
-│   └── Gaze Patterns
+│   ├── Pupillary_Response
+│   └── Gaze_Patterns
 └── Physiological
-    ├── Blood Oxygen
-    ├── Heart Rate
-    └── Skin Conductance
+    ├── Blood_Oxygen
+    ├── Heart_Rate
+    └── Skin_Conductance
 ```
 
 ### 6. Post-Interaction Assessment
 
 #### Evaluation Metrics
+
 - Concept Understanding
   - Knowledge retention
   - Information accuracy
@@ -98,7 +105,8 @@ MEASUREMENT STREAMS
 ### 7. Analysis Framework
 
 #### Data Processing Pipeline
-```
+
+```bash
 ANALYSIS WORKFLOW
 ├── Raw Data Collection
 ├── Preprocessing
@@ -116,11 +124,13 @@ ANALYSIS WORKFLOW
 ## Variables
 
 ### Independent Variables
+
 - Chatbot Profile Type
 - Information Presentation Style
 - Interaction Duration
 
 ### Dependent Variables
+
 1. Neural Measures
    - EEG power spectra
    - Event-related potentials
@@ -136,6 +146,7 @@ ANALYSIS WORKFLOW
 ## Expected Outcomes
 
 ### Primary Objectives
+
 1. Cognitive Load Patterns
    - Neural signatures during information processing
    - Attention allocation markers
@@ -147,6 +158,7 @@ ANALYSIS WORKFLOW
    - Educational implications
 
 ### Research Applications
+
 - AI interaction design optimization
 - Digital literacy training development
 - Cognitive load management strategies
@@ -154,11 +166,13 @@ ANALYSIS WORKFLOW
 ## Technical Notes
 
 ### Equipment Specifications
+
 - EEG: 32-channel Brain Vision system
 - Eye-Tracker: 1000Hz sampling rate
 - Physiological Sensors: Medical-grade accuracy
 
 ### Data Management
+
 - Secure storage protocols
 - Redundant backup systems
 - Privacy-compliant processing
@@ -166,6 +180,7 @@ ANALYSIS WORKFLOW
 ## Contact Information
 
 For technical queries or methodology clarification:
+
 - Principal Investigator: [Contact Details]
 - Technical Support: [Support Email]
-- Repository Maintainer: jackjburleson@proton.me
+- Repository Maintainer: <jackjburleson@proton.me>
