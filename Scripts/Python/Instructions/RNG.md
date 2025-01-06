@@ -1,6 +1,7 @@
 # Comprehensive Number Selector
 
-Table of Contents
+## Table of Contents
+
  • Overview
  • Features
  • Installation
@@ -16,7 +17,8 @@ Table of Contents
 
 The Comprehensive Number Selector is a versatile Python application designed to help users randomly select numbers based on customizable criteria. Whether you prefer using the command line or a graphical interface, this tool offers flexibility to meet your needs. It’s ideal for generating lottery numbers, random samples for studies, or any scenario requiring random number selection.
 
-Features
+## Features
+
  • Dual Interface: Operate via Command-Line Interface (CLI) or Graphical User Interface (GUI) using Tkinter.
  • Customizable Range: Define the start and end of the number range.
  • Selection Parameters: Specify the number of numbers to select and the number of sets to generate.
@@ -28,9 +30,10 @@ Features
  • Export Options: Save results in CSV or TXT formats.
  • Logging: Comprehensive logging of operations and errors for troubleshooting.
 
-Installation
+## Installation
 
-Prerequisites
+## Prerequisites
+
  • Python 3.6 or higher must be installed on your system. You can download it from Python’s official website.
 
 Clone the Repository
@@ -122,9 +125,8 @@ The generated sets will be displayed in the terminal. If exported, a confirmatio
 
 Example Session
 
-# Comprehensive Number Selector
+### Enter the start of the range [1]
 
-Enter the start of the range [1]:
 Enter the end of the range [15]: 30
 How many numbers to select [6]: 5
 How many sets to generate [1]: 3
@@ -146,7 +148,7 @@ Enter file format ('csv' or 'txt') [csv]: txt
 Enter filename [number_sets_20250103_123456.txt]: my_number_sets.txt
 Results successfully exported to my_number_sets.txt
 
-Graphical User Interface (GUI) Mode
+### Graphical User Interface (GUI) Mode
 
 Running in GUI Mode
 
@@ -154,7 +156,7 @@ To launch the application in GUI mode, use the --gui flag:
 
 python number_selector.py --gui
 
-GUI Components
+### GUI Components
 
 Upon launching, the GUI window will display the following components:
 
@@ -178,7 +180,7 @@ Upon launching, the GUI window will display the following components:
  6. Save Dialog
  • If exporting is enabled, a dialog will prompt you to choose the save location and filename.
 
-Step-by-Step Instructions
+### Step-by-Step Instructions
 
  1. Launch the GUI
 
@@ -201,14 +203,14 @@ python number_selector.py --gui
  7. Close the Application
  • Click the close button or select Quit from the window menu.
 
-Exporting Results
+## Exporting Results
 
 The application allows exporting the generated number sets in two formats:
 
  1. CSV (Comma-Separated Values)
  2. TXT (Plain Text)
 
-Exporting in CLI Mode
+### Exporting in CLI Mode
 
 After generating the sets:
 
@@ -216,7 +218,7 @@ After generating the sets:
  2. Select File Format: Enter csv or txt.
  3. Enter Filename: Provide a filename or accept the default.
 
-Exporting in GUI Mode
+### Exporting in GUI Mode
 
  1. Enable Export: Check the Export Results box.
  2. Select File Format: Choose between CSV and TXT.
@@ -237,31 +239,32 @@ Set 1: [5, 12, 23, 7, 19]
 Set 2: [14, 3, 27, 8, 21]
 Set 3: [2, 16, 9, 25, 11]
 
-Logging
+## Logging
 
 The application maintains a log file named number_selector.log in the same directory as the script. This log records detailed information about operations, selections, exports, and any errors encountered.
 
-Log Details
+### Log Details
+
  • Timestamp: Date and time of the event.
  • Log Level: INFO, DEBUG, WARNING, ERROR.
  • Message: Description of the event.
 
-Example Log Entries
+### Example Log Entries
 
 2025-01-03 12:34:56,789 - INFO - Available numbers: [1, 2, 3, ..., 15]
 2025-01-03 12:35:01,123 - INFO - Randomization method selected: shuffle
 2025-01-03 12:35:02,456 - INFO - Set 1: [5, 12, 23, 7, 19]
 2025-01-03 12:35:03,789 - ERROR - Failed to export results: [Error Details]
 
-Accessing the Log
+### Accessing the Log
 
 Open the number_selector.log file using any text editor to review the logs.
 
-Error Handling
+## Error Handling
 
 The application includes robust error handling to ensure smooth operation. Here’s how it manages potential issues:
 
-Common Errors
+### Common Errors
 
  1. Invalid Inputs
  • Non-integer Values: If a non-integer is entered where an integer is expected, the application will display an error message and exit (CLI) or show an error dialog (GUI).
@@ -277,7 +280,7 @@ Common Errors
  6. Tkinter Availability
  • If Tkinter is not installed and the user attempts to launch GUI mode, the application notifies the user and exits gracefully.
 
-Handling Keyboard Interrupt (CLI)
+### Handling Keyboard Interrupt (CLI)
 
 If the user interrupts the CLI process (e.g., using Ctrl+C), the application will:
  • Display a cancellation message.
@@ -288,8 +291,8 @@ Logging Errors
 
 All errors are logged with the ERROR level in the number_selector.log file, providing details for troubleshooting.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
-Created with ❤️ by Your Name
+Created with ❤️ by Exios66
