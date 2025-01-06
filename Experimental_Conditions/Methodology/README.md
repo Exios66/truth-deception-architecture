@@ -182,5 +182,5 @@ ANALYSIS WORKFLOW
 For technical queries or methodology clarification:
 
 - Principal Investigator: [Contact Details]
-- Technical Support: [Support Email]
+- Technical Support: <jackjburleson@proton.me>
 - Repository Maintainer: <jackjburleson@proton.me>
