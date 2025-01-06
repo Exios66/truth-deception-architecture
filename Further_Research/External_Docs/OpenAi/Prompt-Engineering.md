@@ -76,7 +76,8 @@ Tactic:
 
 * [Evaluate model outputs with reference to gold-standard answers](#tactic-evaluate-model-outputs-with-reference-to-gold-standard-answers)
 
-Tactics
+### Tactics
+
 -------
 
 Each of the strategies listed above can be instantiated with specific tactics. These tactics are meant to provide ideas for things to try. They are by no means fully comprehensive, and you should feel free to try creative ideas not represented here.
@@ -370,7 +371,7 @@ You can write and execute Python code by enclosing it in triple backticks, e.g. 
 
 USER
 
-```
+```python
 Find all real-valued roots of the following polynomial: 3\*x\*\*5 - 5\*x\*\*4 - 3\*x\*\*3 - 7\*x - 10.
 ```
 

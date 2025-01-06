@@ -1,6 +1,6 @@
 # External URLs Subdirectory Documentation
 
-**Last Updated: 01.03.25**
+Last Updated: 01.03.25
 
 ## Overview
 
@@ -40,6 +40,7 @@ This subdirectory serves as a centralized hub for managing external resources. I
 ## Key Components
 
 ### 1. CustomGPTs
+
 - Description: Contains direct URL links and metadata for the custom GPT models used in experimental setups.
 - Use Cases:
   - Model behavior analysis
@@ -48,6 +49,7 @@ This subdirectory serves as a centralized hub for managing external resources. I
   - custom-GPT-urls.md: Provides URL links and brief descriptions of the models
 
 ### 2. Project_Wikis
+
 - Description: Links to external wikis or detailed resources that provide additional context or background for the project.
 - Use Cases:
   - Referencing external research or documentation
@@ -72,8 +74,9 @@ This subdirectory serves as a centralized hub for managing external resources. I
 ## Contact Information
 
 For inquiries, updates, or to report broken links, contact the repository maintainer:
+
 - GitHub Profile: Exios66
-- Email: jackjburleson@proton.me
+- Email: <jackjburleson@proton.me>
 
 ## Acknowledgments
 

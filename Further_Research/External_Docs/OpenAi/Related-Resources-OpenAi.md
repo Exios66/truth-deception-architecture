@@ -1,6 +1,6 @@
-# OpenAi Related Resources
+# OpenAI Related Resources
 
-# Related resources from around the web
+## Related resources from around the web
 
 People are writing great tools and papers for improving outputs from GPT. Here are some cool ones we've seen:
 
