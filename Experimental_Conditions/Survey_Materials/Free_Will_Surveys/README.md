@@ -1,4 +1,4 @@
-# Free Will Surveys & Inventories README Documentation
+# Free Will Surveys & Inventories
 
 ## Last Updated: 01.03.25
 

@@ -95,6 +95,3 @@ For questions, issues, or contributions, feel free to reach out:
 ## Acknowledgments
 
 This subdirectory owes its creation to interdisciplinary contributions and external frameworks that inform the goals of the Truth-Deception Architecture. Special thanks to collaborators and contributors for their efforts in expanding this body of knowledge.
-
-```
-
