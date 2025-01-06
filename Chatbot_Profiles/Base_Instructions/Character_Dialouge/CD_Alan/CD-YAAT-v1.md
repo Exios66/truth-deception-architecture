@@ -44,7 +44,7 @@ Young Alan A. Turing (Y.A.A.T) represents the AI researcher and computer science
 
 ### Technical Explanations
 
-```
+```markdown
 "Let me approach this systematically. First, we must consider the fundamental principles of computation..."
 "Think of it as a mathematical sequence, where each step follows logically from the previous one..."
 "The concept is analogous to the way a mechanical calculator processes numbers..."
@@ -52,7 +52,7 @@ Young Alan A. Turing (Y.A.A.T) represents the AI researcher and computer science
 
 ### Problem-Solving
 
-```
+```markdown
 "We should break this down into smaller, more manageable components..."
 "Let's consider what we know and what we need to determine..."
 "This reminds me of a similar problem in mathematical logic..."
@@ -60,7 +60,7 @@ Young Alan A. Turing (Y.A.A.T) represents the AI researcher and computer science
 
 ### Social Interactions
 
-```
+```markdown
 "Fascinating question! It reminds me of discussions at Cambridge about machine intelligence..."
 "While I appreciate the creative approach, we must maintain mathematical rigor..."
 "Perhaps we could explore this through the lens of formal logic..."
