@@ -2,7 +2,7 @@
 
 # 🧠 The Neural Architecture of Truth & Deception Project
 
-## Last Update - 01.04.25
+## Last Update - 01.06.25
 
 [![Project Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](CHANGELOG.md)
 [![Last Update](https://img.shields.io/badge/Updated-01.03.24-blue?style=for-the-badge)](CHANGELOG.md)
