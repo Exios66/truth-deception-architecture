@@ -11,3 +11,13 @@
     ### EEG Wave Measurement
 
     ### Philosophical Framework
+
+***
+
+## Translation Key
+
+    1. Ai-XX | Ai Research
+    2. CWT-XX | Cognitive Workload Theory
+    3. CD-XX | Cognitive Dissonance
+    4. EEG-XX | EEG Measurement
+    5. PHIL-XX | Philosophical
