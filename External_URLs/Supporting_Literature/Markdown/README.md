@@ -21,3 +21,30 @@
     3. CD-XX | Cognitive Dissonance
     4. EEG-XX | EEG Measurement
     5. PHIL-XX | Philosophical
+
+***
+
+### Ai Research
+    1. 
+    2.
+    3.
+
+### Cognitive Workload Theory
+    1.
+    2.
+    3.
+
+### Cognitive Dissonance
+    1.
+    2.
+    3.
+
+### EEG Measurement
+    1.
+    2.
+    3.
+
+### Philosophical Framework
+    1.
+    2.
+    3.
