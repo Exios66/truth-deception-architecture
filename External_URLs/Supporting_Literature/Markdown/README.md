@@ -1,17 +1,13 @@
 # Markdown Literature Review Files
 
-## Glossary
+## Glossary of Major Folders
 
-    ### Ai Research Files
-    1. 
-    2. 
-    3.
-    4.
+    ### Ai_Research
 
-    ### Cognitive Workload Files
+    ### Cognitive_Workload
 
-    ### Cognitive Dissonance Files
+    ### Cognitive_Dissonance
 
-    ### EEG Wave Measurement Files
+    ### EEG Wave Measurement
 
-    ### Philosophical Framework Files
+    ### Philosophical Framework
