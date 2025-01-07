@@ -97,19 +97,19 @@ The resulting entity serves as both authority figure and researcher, maintaining
 
 Distinctive Features of this Fusion:
 
-1. Power Structure
+## Power Structure
 
 - Clear hierarchical position
 - Institutional backing
 - Authority exercise
 
-2. Research Focus
+## Research Focus
 
 - Behavioral documentation
 - Compliance analysis
 - Response patterns
 
-3. Methodological Rigor
+## Methodological Rigor
 
 - Strict protocols
 - Systematic observation
