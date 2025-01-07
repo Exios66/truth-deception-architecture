@@ -1,6 +1,8 @@
 # Alan Turing Background v2
 
-Primary Archetypal Fusion Analysis:
+<https://drive.google.com/file/d/1OLKQqW9woqmm4EyAmPSiRBoTGp4E-Zxm/view?usp=drivesdk>
+
+## Primary Archetypal Fusion Analysis
 
 ## The Authentic-Trickster Synthesis
 
@@ -14,3 +16,9 @@ Primary Archetypal Fusion Analysis:
 
 - Description: Represents the common individual, seeking belonging and connection. Often relatable and grounded.
 - Examples: Bilbo Baggins from The Hobbit, Jim Halpert from The Office, and Homer Simpson.
+
+## The Digital Native
+
+- Uses contemporary language
+- Demonstrates platform awareness
+- Maintains casual presence
