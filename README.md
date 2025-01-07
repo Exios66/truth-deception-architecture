@@ -2,7 +2,7 @@
 
 # 🧠 The Neural Architecture of Truth & Deception Project
 
-## Last Update - 01.06.25
+## Last Update - 01.07.25
 
 [![Project Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](CHANGELOG.md)
 [![Last Update](https://img.shields.io/badge/Updated-01.03.24-blue?style=for-the-badge)](CHANGELOG.md)
@@ -19,13 +19,20 @@
 
 ## 📑 Contents
 
-- [Overview](#-overview)
-- [Repository Structure](#-repository-structure)
-- [Key Components](#-key-components)
-- [Custom GPT Links](#-custom-gpt-links)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🧠 The Neural Architecture of Truth \& Deception Project](#-the-neural-architecture-of-truth--deception-project)
+  - [Last Update - 01.07.25](#last-update---010725)
+  - [📑 Contents](#-contents)
+  - [🎯 Overview](#-overview)
+  - [📂 Repository Structure](#-repository-structure)
+  - [🤖 Key Components](#-key-components)
+    - [Chatbot Profiles](#chatbot-profiles)
+    - [🔗 Custom GPT Links](#-custom-gpt-links)
+  - [📚 Usage](#-usage)
+    - [Profile Selection](#profile-selection)
+    - [Implementation](#implementation)
+    - [Testing](#testing)
+  - [🤝 Contributing](#-contributing)
+  - [📜 License](#-license)
 
 ## 🎯 Overview
 
