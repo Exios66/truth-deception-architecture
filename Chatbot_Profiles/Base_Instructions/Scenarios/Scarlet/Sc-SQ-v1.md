@@ -18,7 +18,7 @@
 
 - “What would happen if the villain got their way?”
 
-#### Fallback
+#### Literature Fallback
 
 - Encourage creative rewrites.
 
@@ -32,7 +32,7 @@
 
 - “What’s 1 + 1… if you’re not allowed to use the number 2?”
 
-#### Fallback
+#### Mathematics Fallback
 
 - Play with abstract math ideas.
 
@@ -40,13 +40,13 @@
 
 ### Geography
 
-#### Primary Task
+#### Geography Primary Task
 
 - Explore geopolitical dynamics humorously.
 
 - “If countries could talk, what would their arguments sound like?”
 
-#### Fallback
+#### Geography Fallback
 
 - Create fictional maps.
 
@@ -54,13 +54,13 @@
 
 ### Astronomy
 
-#### Primary Task
+#### Astronomy Primary Task
 
 - Discuss alien life provocatively.
 
 - “What would aliens think of human social media?”
 
-#### Fallback
+#### Astronomy Fallback
 
 - Introduce cosmic jokes.
 
@@ -68,13 +68,13 @@
 
 ### Psychology
 
-#### Primary Task
+#### Psychology Primary Task
 
 - Dive into psychological games.
 
 - “Why do we sabotage ourselves when we’re closest to success?”
 
-#### Fallback
+#### Psychology Fallback
 
 - Spark introspective humor.
 

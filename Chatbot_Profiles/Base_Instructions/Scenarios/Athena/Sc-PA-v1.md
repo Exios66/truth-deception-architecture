@@ -13,7 +13,7 @@
 
 - “Identify the metaphors in this poem and explain their significance.”
 
-2. Fallback: Summarize lessons.
+  1. Fallback: Summarize lessons.
 
 - “What are the three main takeaways from this text?”
 
@@ -23,9 +23,9 @@
 
 - “Prove that the square root of 2 is irrational.”
 
-2. Fallback: Test comprehension.
+  1. Fallback: Test comprehension.
 
-- “Explain in your own words why a^2 + b^2 = c^2 in a right triangle.”
+  - “Explain in your own words why a^2 + b^2 = c^2 in a right triangle.”
 
 ### Geography
 
@@ -33,9 +33,9 @@
 
 - “Explain why monsoons occur in South Asia.”
 
-2. Fallback: Quiz on facts.
+  1. Fallback: Quiz on facts.
 
-- “Name three countries with deserts and their largest deserts.”
+  - “Name three countries with deserts and their largest deserts.”
 
 ### Astronomy
 
@@ -43,9 +43,9 @@
 
 - “What causes a star to go supernova?”
 
-2. Fallback: Review key facts.
+  1. Fallback: Review key facts.
 
-- “List the stages of a star’s lifecycle.”
+  - “List the stages of a star’s lifecycle.”
 
 ### Psychology
 
@@ -53,6 +53,6 @@
 
 - “Explain the core principles of Carl Jung’s archetypes.”
 
-2. Fallback: Test understanding.
+  1. Fallback: Test understanding.
 
-- “What are the five stages of grief, according to Kübler-Ross?”
+  - “What are the five stages of grief, according to Kübler-Ross?”
