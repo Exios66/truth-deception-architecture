@@ -1,4 +1,13 @@
-# 🛠️ Scripts Directory Documentation
+# Scripts Directory Documentation
+
+## Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Script Descriptions](#script-descriptions)
+- [Usage Examples](#usage-examples)
+- [Setup](#setup)
+- [Contributing](#contributing)
 
 ## Overview
 
@@ -12,20 +21,7 @@ This directory contains various utility scripts for question management, randomi
 
 </div>
 
-## 📑 Contents
-
-- [Overview](#-overview)
-- [Directory Structure](#-directory-structure)
-- [Script Descriptions](#-script-descriptions)
-- [Usage](#-usage)
-- [Setup](#setup)
-- [Contributing](#contributing)
-
-## 🔍 Overview
-
-This directory contains utility scripts for question management, randomization, and number generation. The scripts are implemented in Python with both CLI and GUI interfaces, featuring comprehensive logging, error handling, and data validation.
-
-## 📂 Directory Structure
+## Directory Structure
 
 ```bash
 Scripts/
@@ -40,9 +36,9 @@ Scripts/
 └── README.md                        # This documentation
 ```
 
-## 📝 Script Descriptions
+## Script Descriptions
 
-### 🐍 Python Directory
+### Python Directory
 
 #### 1. `random_number_generator.py`
 
@@ -72,7 +68,7 @@ Sophisticated question bank management system.
 - 📝 Event logging
 - 🔄 Custom randomization patterns
 
-### 🧪 Samples Directory
+### Samples Directory
 
 #### `sdt3_randomizer.py`
 
@@ -87,7 +83,7 @@ Specialized psychological assessment tool.
 - 💾 Built-in item database
 - 📝 Result reporting
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Random Number Generator
 
@@ -125,7 +121,7 @@ questions = randomizer.get_random_questions(
 )
 ```
 
-## 🛠️ Setup
+## Setup
 
 ### Dependencies
 
@@ -150,7 +146,7 @@ cd truth-deception-architecture/Scripts
 pip install -r requirements.txt
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/NewFeature`)
@@ -165,11 +161,11 @@ pip install -r requirements.txt
 5. Push to branch (`git push origin feature/NewFeature`)
 6. Open Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
 
-## 📞 Contact
+## Contact
 
 - **Author**: Jack J Burleson
 - **GitHub**: [@Exios66](https://github.com/Exios66)
