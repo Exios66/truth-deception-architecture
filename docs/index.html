@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern soundboard application with timer functionality">
+    <meta name="keywords" content="soundboard, audio player, timer, web app">
+    <meta name="author" content="Soundboard App">
+    <meta property="og:title" content="Modern Soundboard with Timer">
+    <meta property="og:description" content="A modern soundboard application with timer functionality">
+    <meta property="og:type" content="website">
+    <title>Modern Soundboard with Timer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABClJREFUWEe9l11oHFUUx/9ndjcxaawWi1gfWrH4UakPRbQgFh+KmN2ZFaz4UHwrKFjBUvFFEcUHwSqiIFjxQUQU8UvEmdmNwRgr+FKkKKJYP1JtsH60tQZjkt2Z43/u7G6y2d3Mxt3tXVjYnTn3/H7nnHvPvUOscJDj8h0WcQiEHQAGQQwS0EfACgJTBEyBcQXAJICvUcRZjvD1lYShpR6MjhpbC/34mNhtgK0AbgLQXeMdvwL4kRhf2Ql6n0fxR7XxVQkYHaVepxcHiHiQgNvqeKyeqQsM9jHwLg/jJI/wXKUJFQKUcB8eAnCIgPXNeFjH5hIDr/MwXuURXqwWcZmAkRHa6PTjKQLuWwbheq/4zGIcYRFPLPbmEgEqz/YAXgXQv0LCi2YvMOM5jsNRxrwSsUiA46oK9yaAOy+TcDnsPwCOsY0XeYRnFwQoAa6L+wC8DWDNKgkvmvUngEeYcZxFRFQFuK76dt8B0LWKwuXUeQZ2s41PVCYUBbguHgLwFoD2/0G4nFpgxn628b4S4Lh4BMCJ/1G4HH6YbTzPjqtE6AJwXXUUngGwdr0oXE6dI8ZutvGpEnAQwGv/oXD5/RzjINt4kwF1nM4DWHe9CJcPrXPE2MU2PmeXXewA8P11JlwOr7LhdrYxzuqyeRfAA9ercADvs41H2HFxG4Af6xSfAnCBGb8xcQaMywwUmLGWgPUEbCRgA4DrGog/xjbuYNfFbgAf1rB8B8A4M84S8COAi8xQgrcQ0A9gMzFuBXA7gN4a7xllGw+y4+JxAC/XsJxi4FMGviPGLwBmmbGOgJsJuAOMOwHcA6CjivHzbOMZdl0cA/BSDeFvGPiSGD8DOE/ADANrwOgnYCMDdzHjbgAbqwj4lW08x46rzn1VB+oVX0kBTwN4rpnTsEIB6lJ5HMDhVbqMfsHAE2zjFDuuunI/A7ClWREV7M4AeIQZp9nGn8oJx8U9YJwEsK5ZERXs/gKwj218pDKhKMBxsQWMrwB0NyuihN0sgPvZxufldxYJcF2sA/AlgFuaFVHCbifb+HBBwPw03AzgNIDBZkU02H0PYAfPL7+F8YsE6O5mHj0MvA9gbTNPb8BmhoBdbOMb/V4ZAUWvHBe7AHwCoKcREQ3YzjGwj218Wm5XUYDj4k4wPgfQ14iIOmznGHiQbXxWyaaqAMfFZjA+A7ChHhF12swR8BDb+KKaXU0Bjot+Zqh2anMdIuqxmSVgN9v4upa9FuC42AjGKQCb6hFRh80MAXvYxle1bLUAx0UvGJ8CGKpDRD02fzBjL9uYqGVYFOC4WA+Gqog31SOiBptzDBxgG1/Xs9MCHG0/B8ZxAPfWI6KKzXkwDrKNU/XYFwU4rr5SjwDYD2BLPSJKbH4H4w0AR3kEF+uxK9rMr8YOMD8MxnYwbgMQgPEngHEGPmHGhzyCb+t9eKntPwBGzXVNRzqZAAAAAElFTkSuQmCC">
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f0f2f5;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666666;
+            --accent-color: #3498db;
+            --accent-hover: #2980b9;
+            --shadow: rgba(0, 0, 0, 0.1);
+            --border: #e0e0e0;
+            --error: #e74c3c;
+            --success: #2ecc71;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2c2c2c;
+            --text-primary: #ffffff;
+            --text-secondary: #b3b3b3;
+            --accent-color: #4fa3e3;
+            --accent-hover: #2980b9;
+            --shadow: rgba(0, 0, 0, 0.3);
+            --border: #404040;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-secondary);
+            border-radius: 16px;
+            box-shadow: 0 4px 6px var(--shadow);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(360deg);
+        }
+
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .volume-slider {
+            width: 100px;
+            height: 4px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: var(--text-secondary);
+            border-radius: 2px;
+            outline: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .volume-slider::-webkit-slider-thumb:hover {
+            background: var(--accent-hover);
+        }
+
+        .timer {
+            font-size: 2rem;
+            font-weight: 600;
+            background-color: var(--bg-primary);
+            padding: 1rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 4px var(--shadow);
+            color: var(--text-primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .timer-controls {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .timer-btn {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: transform 0.2s;
+        }
+
+        .timer-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .button {
+            background-color: var(--accent-color);
+            border: none;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: transform 0.2s, background-color 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .button i {
+            font-size: 1.2rem;
+        }
+
+        .button.playing {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .visualizer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .visualizer-bar {
+            height: 100%;
+            background: white;
+            width: 0;
+            transition: width 0.1s;
+        }
+
+        .custom-file-upload {
+            border: 2px dashed var(--border);
+            padding: 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1rem;
+            text-align: center;
+            background-color: var(--bg-primary);
+            transition: all 0.3s;
+        }
+
+        .custom-file-upload:hover, .custom-file-upload.drag-over {
+            border-color: var(--accent-color);
+            background-color: var(--bg-secondary);
+        }
+
+        .custom-file-upload i {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+
+        .sound-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(100%);
+            transition: all 0.3s;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .toast.error {
+            background-color: var(--error);
+        }
+
+        .toast.success {
+            background-color: var(--success);
+        }
+
+        .loading {
+            position: relative;
+        }
+
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(2px);
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .timer {
+                font-size: 1.5rem;
+            }
+            
+            .button-container {
+                grid-template-columns: 1fr;
+            }
+
+            .volume-control {
+                display: none;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        .keyboard-shortcuts {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .shortcuts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .shortcut {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .key {
+            background: var(--bg-primary);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: monospace;
+            border: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Soundboard</h1>
+            <div class="controls">
+                <div class="volume-control">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" class="volume-slider" id="volumeControl" min="0" max="100" value="100">
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="timer" id="timer">
+            <span id="timerDisplay">10:00</span>
+            <div class="timer-controls">
+                <button class="timer-btn" id="resetTimer" aria-label="Reset timer">
+                    <i class="fas fa-redo"></i>
+                </button>
+                <button class="timer-btn" id="toggleTimer" aria-label="Play/pause timer">
+                    <i class="fas fa-pause"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button class="button" onclick="playSound('sound1.wav')" data-shortcut="1">
+                <i class="fas fa-play"></i>
+                Sound 1
+                <div class="visualizer"><div class="visualizer-bar"></div></div>
+            </button>
+            <button class="button" onclick="playSound('sound2.wav')" data-shortcut="2">
+                <i class="fas fa-play"></i>
+                Sound 2
+                <div class="visualizer"><div class="visualizer-bar"></div></div>
+            </button>
+            <button class="button" onclick="playSound('sound3.wav')" data-shortcut="3">
+                <i class="fas fa-play"></i>
+                Sound 3
+                <div class="visualizer"><div class="visualizer-bar"></div></div>
+            </button>
+        </div>
+
+        <label class="custom-file-upload" id="dropZone">
+            <input type="file" id="customFile" accept="audio/*" style="display: none;" onchange="addCustomSound()">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <div>Drop audio file here or click to upload</div>
+        </label>
+
+        <div class="custom-sounds">
+            <div class="sound-list" id="customSoundsList"></div>
+        </div>
+
+        <div class="keyboard-shortcuts">
+            <h3>Keyboard Shortcuts</h3>
+            <div class="shortcuts-grid">
+                <div class="shortcut"><span class="key">Space</span> Play/Pause Timer</div>
+                <div class="shortcut"><span class="key">R</span> Reset Timer</div>
+                <div class="shortcut"><span class="key">1-3</span> Play Sounds 1-3</div>
+                <div class="shortcut"><span class="key">M</span> Mute/Unmute</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Audio Context for visualization
+        let audioContext;
+        let analyser;
+        try {
+            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            analyser = audioContext.createAnalyser();
+        } catch (e) {
+            console.error('Web Audio API is not supported in this browser');
+        }
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        function setTheme(isDark) {
+            document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+            themeToggle.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
+
+        // Initialize theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme === 'dark');
+        } else {
+            setTheme(prefersDark.matches);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            setTheme(!isDark);
+        });
+
+        // Timer functionality
+        let timerSeconds = 10 * 60;
+        let timerInterval;
+        let isTimerRunning = true;
+        const timerDisplay = document.getElementById('timerDisplay');
+        const toggleTimer = document.getElementById('toggleTimer');
+        const resetTimer = document.getElementById('resetTimer');
+
+        function updateTimer() {
+            if (timerSeconds > 0 && isTimerRunning) {
+                let minutes = Math.floor(timerSeconds / 60);
+                let seconds = timerSeconds % 60;
+                timerDisplay.textContent = 
+                    `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                timerSeconds--;
+            } else if (timerSeconds === 0) {
+                clearInterval(timerInterval);
+                timerDisplay.textContent = "00:00";
+                playSound('timer-end.wav');
+                showToast('Timer finished!', 'success');
+            }
+        }
+
+        function toggleTimerState() {
+            isTimerRunning = !isTimerRunning;
+            toggleTimer.innerHTML = isTimerRunning ? 
+                '<i class="fas fa-pause"></i>' : 
+                '<i class="fas fa-play"></i>';
+            document.getElementById("timer").style.opacity = isTimerRunning ? "1" : "0.6";
+        }
+
+        function resetTimerState() {
+            timerSeconds = 10 * 60;
+            updateTimer();
+            showToast('Timer reset', 'success');
+        }
+
+        toggleTimer.addEventListener('click', toggleTimerState);
+        resetTimer.addEventListener('click', resetTimerState);
+        timerInterval = setInterval(updateTimer, 1000);
+
+        // Volume Control
+        const volumeControl = document.getElementById('volumeControl');
+        let globalVolume = 1;
+
+        volumeControl.addEventListener('input', (e) => {
+            globalVolume = e.target.value / 100;
+        });
+
+        // Sound functionality with visualization
+        let customSounds = [];
+        const activeAudio = new Map();
+
+        function createVisualizer(audioElement, button) {
+            if (!audioContext || !analyser) return;
+
+            const source = audioContext.createMediaElementSource(audioElement);
+            const visualizerBar = button.querySelector('.visualizer-bar');
+            
+            source.connect(analyser);
+            analyser.connect(audioContext.destination);
+
+            analyser.fftSize = 32;
+            const bufferLength = analyser.frequencyBinCount;
+            const dataArray = new Uint8Array(bufferLength);
+
+            function updateVisualizer() {
+                if (!audioElement.paused) {
+                    requestAnimationFrame(updateVisualizer);
+                    analyser.getByteFrequencyData(dataArray);
+                    const average = dataArray.reduce((a, b) => a + b) / bufferLength;
+                    const width = (average / 255) * 100;
+                    visualizerBar.style.width = `${width}%`;
+                } else {
+                    visualizerBar.style.width = '0%';
+                }
+            }
+
+            audioElement.addEventListener('play', updateVisualizer);
+        }
+
+        async function playSound(file) {
+            try {
+                if (audioContext.state === 'suspended') {
+                    await audioContext.resume();
+                }
+
+                const button = event.currentTarget;
+                button.classList.add('loading');
+
+                // Stop previous instance of this sound if it exists
+                if (activeAudio.has(file)) {
+                    const prevAudio = activeAudio.get(file);
+                    prevAudio.pause();
+                    prevAudio.currentTime = 0;
+                }
+
+                const audio = new Audio(file);
+                audio.volume = globalVolume;
+                
+                activeAudio.set(file, audio);
+
+                audio.addEventListener('canplaythrough', () => {
+                    button.classList.remove('loading');
+                    button.classList.add('playing');
+                    createVisualizer(audio, button);
+                    audio.play();
+                });
+
+                audio.addEventListener('ended', () => {
+                    button.classList.remove('playing');
+                    activeAudio.delete(file);
+                });
+
+                audio.addEventListener('error', () => {
+                    button.classList.remove('loading');
+                    showToast('Error playing sound', 'error');
+                });
+
+            } catch (error) {
+                console.error('Error playing sound:', error);
+                showToast('Error playing sound', 'error');
+            }
+        }
+
+        function addCustomSound() {
+            const fileInput = document.getElementById('customFile');
+            const file = fileInput.files[0];
+            
+            if (file) {
+                if (file.size > 10 * 1024 * 1024) { // 10MB limit
+                    showToast('File too large. Maximum size is 10MB', 'error');
+                    return;
+                }
+
+                const fileName = file.name;
+                const fileURL = URL.createObjectURL(file);
+                
+                customSounds.push({
+                    name: fileName,
+                    url: fileURL
+                });
+                
+                updateCustomSoundsList();
+                showToast('Sound added successfully', 'success');
+            }
+        }
+
+        function updateCustomSoundsList() {
+            const soundsList = document.getElementById('customSoundsList');
+            soundsList.innerHTML = '';
+            
+            customSounds.forEach((sound, index) => {
+                const button = document.createElement('button');
+                button.className = 'button';
+                button.innerHTML = `
+                    <i class="fas fa-play"></i>
+                    ${sound.name.substring(0, 20)}${sound.name.length > 20 ? '...' : ''}
+                    <div class="visualizer"><div class="visualizer-bar"></div></div>
+                `;
+                button.onclick = () => playSound(sound.url);
+                soundsList.appendChild(button);
+            });
+        }
+
+        // Toast notifications
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+            
+            setTimeout(() => {
+                toast.className = 'toast';
+            }, 3000);
+        }
+
+        // Drag and drop functionality
+        const dropZone = document.getElementById('dropZone');
+
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight(e) {
+            dropZone.classList.add('drag-over');
+        }
+
+        function unhighlight(e) {
+            dropZone.classList.remove('drag-over');
+        }
+
+        dropZone.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const file = dt.files[0];
+            
+            if (file && file.type.startsWith('audio/')) {
+                document.getElementById('customFile').files = dt.files;
+                addCustomSound();
+            } else {
+                showToast('Please drop an audio file', 'error');
+            }
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT') return;
+
+            switch(e.key.toLowerCase()) {
+                case ' ':
+                    e.preventDefault();
+                    toggleTimerState();
+                    break;
+                case 'r':
+                    resetTimerState();
+                    break;
+                case 'm':
+                    volumeControl.value = volumeControl.value > 0 ? 0 : 100;
+                    globalVolume = volumeControl.value / 100;
+                    break;
+                case '1':
+                case '2':
+                case '3':
+                    const button = document.querySelector(`[data-shortcut="${e.key}"]`);
+                    if (button) button.click();
+                    break;
+            }
+        });
+
+        // Service Worker Registration for PWA support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').catch(err => {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
