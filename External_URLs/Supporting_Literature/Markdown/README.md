@@ -51,5 +51,5 @@
 ### Philosophical Framework
 
     1. There is Nothing It is Like to See Red: Holism and Subjective Experience
-    2. 
+    2. Free Will Beliefs are Better Predicted by Dualism than Determinism Beliefs Across Different Cultures
     3. The Light vs. Dark Triads of Personality
