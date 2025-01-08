@@ -23,7 +23,16 @@ literature-review/
 
 (`AI_Research/`)
 Advanced studies in artificial intelligence, focusing on:
-1. (AI-Ex) Emergent properties in AI systems
-2. (AI-Ax) AI architecture and system design
-3. (AI-xX) Real-world AI applications and testing
-4. (AI-Bx)AI personality and behavior analysis
+
+1. Emergent Ai Properties
+2. LLM Enhanced Architectures
+3. The Cross Section of Psychology & Computer Science
+
+## 📝 File Naming Convention
+
+| Prefix  | Category                  | Example        |
+|---------|---------------------------|----------------|
+| AI-     | AI-Research              | AI-1         |
+| (AI-Ex)   | AI-Emergent Properties   | AI-E1       |
+| (AI-Ax)    | Ai-Architecture | Ai-A1        |
+| Ai-Bx     | Ai-Behavioral | Ai-B1     |
