@@ -26,10 +26,11 @@
 
 ### Ai Research
 
-    1. 
+    1. A Real-World Test of Artificial Intelligence Infiltration of a University Examination System: A “Turing Test” Case Study
     2.
     3.
-
+        #Ai-Emergence
+        1. 
 ### Cognitive Workload Theory
 
     1.
