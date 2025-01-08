@@ -2,11 +2,13 @@
 icon: block-question
 ---
 
-# Questions Database Documentation
+<!-- markdownlint-disable MD033 -->
+
+# �� Questions Database Documentation
 
 [![Last Update](https://img.shields.io/badge/Last%20Updated-01.03.25-blue?style=for-the-badge)](CHANGELOG.md) [![Version](https://img.shields.io/badge/Version-2.0-brightgreen?style=for-the-badge)](https://github.com/Exios66/truth-deception-architecture/releases) [![Questions](https://img.shields.io/badge/Total%20Questions-70+-orange?style=for-the-badge)](https://github.com/Exios66/truth-deception-architecture/tree/main/Questions_DB)
 
-### 📑 Contents
+## 📑 Contents
 
 * [Overview](./#-overview)
 * [Database Structure](./#-database-structure)
@@ -36,7 +38,7 @@ A comprehensive collection of structured question databases spanning multiple ac
 
 #### Directory Structure
 
-```
+```bash
 Questions_DB/
 ├── Psychology/
 │   ├── PSYC-v1.md            # Psychology questions database
@@ -64,7 +66,7 @@ Questions_DB/
 * 🧩 Cognitive Processes (6 questions)
 * 📝 Learning and Memory (6 questions)
 
-#### 🌌 Astronomy (ASTRN-v1)![Questions](https://img.shields.io/badge/Questions-25-orange?style=flat-square)![Difficulty](https://img.shields.io/badge/Difficulty-1.5-yellow?style=flat-square)![Version](https://img.shields.io/badge/Version-1.0-blue?style=flat-square)
+#### 🌌 Astronomy (ASTRN-v1) ![Questions](https://img.shields.io/badge/Questions-25-orange?style=flat-square) ![Difficulty](https://img.shields.io/badge/Difficulty-1.5-yellow?style=flat-square) ![Version](https://img.shields.io/badge/Version-1.0-blue?style=flat-square)
 
 **Astronomy Topics**
 
