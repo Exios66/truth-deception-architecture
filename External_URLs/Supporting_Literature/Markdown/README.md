@@ -38,7 +38,7 @@
 
 ### Cognitive Dissonance
 
-    1.
+    1. Cognitive Dissonance: A Closer Look at the Spreading of Alternatives
     2.
     3.
 
