@@ -48,7 +48,7 @@
 
 ### EEG Measurement
 
-    1.
+    1. Cognitive Load Estimation in VR Flight Simulator
     2.
     3.
 
