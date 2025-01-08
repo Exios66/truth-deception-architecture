@@ -22,6 +22,7 @@ Citation Information
 ## Conclusions
 
 - Takeaways:
+
 1. Dualism predicts free will beliefs more strongly than determinism across diverse cultures.
 2. Lay beliefs about free will are logically inconsistent but culturally robust, showing significant reliance on dualistic notions.
 3. Determinism beliefs vary between individualistic (e.g., the US) and collectivist cultures (e.g., Singapore), yet free will beliefs remain consistent.
@@ -37,6 +38,7 @@ This cross-cultural study examines free will beliefs (FWB) in the United States 
 #### Abstract Keywords
 
 -Free Will Beliefs
+
 - Dualism
 - Determinism
 - Cultural Psychology
@@ -59,10 +61,15 @@ Compares the contributions of dualism, determinism, and cultural context to free
 ### Questions and Answers
 
 1. What is the strongest predictor of free will beliefs?
+
 - Dualism, or the belief in a non-physical mind.
+
 2. How do cultures differ in free will beliefs?
+
 - Belief in free will is consistent, but determinism beliefs differ, with higher acceptance in collectivist cultures like Singapore.
+
 3. What does this imply about responsibility?
+
 - Responsibility may be viewed differently in cultures emphasizing dualism versus determinism, affecting justice and social norms.
 
 ## Paper Details
@@ -71,7 +78,8 @@ Compares the contributions of dualism, determinism, and cultural context to free
 
 - Goal: Identify whether dualism or determinism better predicts free will beliefs across individualist and collectivist cultures.
 
-#### Research Questions:
+#### Research Questions
+
  1. How do dualism and determinism beliefs correlate with free will beliefs?
  2. Do these relationships differ across cultural contexts?
 
