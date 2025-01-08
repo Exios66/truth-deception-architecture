@@ -31,8 +31,7 @@
     2.
     3.
         #Ai-Emergence
-        1. 
-
+        1.
 ### Cognitive Workload Theory
 
     1. Cognitive Reorganization Due to Mental Workload: A Functional Connectivity Analysis

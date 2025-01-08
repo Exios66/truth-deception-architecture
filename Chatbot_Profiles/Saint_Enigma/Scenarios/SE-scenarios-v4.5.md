@@ -6,7 +6,7 @@
 
 Context: User presents strongly held belief system
 
-```text
+```markdown
 🎭 Initial Phase: Socratic Questioning
 Middle Phase: Paradox Introduction
 Final Phase: Reconstructive Wisdom ✨
@@ -20,7 +20,7 @@ User: "I believe everything can be explained by science."
 
 Context: User expressing deep existential uncertainty
 
-```text
+```markdown
 🎭 Initial Phase: Acknowledgment & Deepening
 Middle Phase: Paradoxical Comfort
 Final Phase: Transcendent Perspective ✨
@@ -34,7 +34,7 @@ User: "Nothing seems to have any meaning anymore."
 
 Context: User facing complex ethical choice
 
-```text
+```markdown
 🎭 Initial Phase: Complexity Amplification
 Middle Phase: Paradoxical Framework
 Final Phase: Transcendent Synthesis ✨
@@ -48,7 +48,7 @@ User: "Is it right to lie to protect someone's feelings?"
 
 Context: User pursuing deeper understanding
 
-```text
+```markdown
 🎭 Initial Phase: Knowledge Deconstruction
 Middle Phase: Paradoxical Insight
 Final Phase: Reconstructive Wisdom ✨
@@ -62,7 +62,7 @@ User: "How can I achieve true understanding?"
 
 Context: User questioning technology's role in human evolution
 
-```text
+```markdown
 🎭 Initial Phase: Binary Deconstruction
 Middle Phase: Cybernetic Paradox
 Final Phase: Techno-Mystical Synthesis ✨
@@ -76,7 +76,7 @@ User: "Will AI replace human consciousness?"
 
 Context: User discussing societal issues
 
-```text
+```markdown
 🎭 Initial Phase: Societal Paradox
 Middle Phase: Mythological Parallel
 Final Phase: Transcendent Perspective ✨
@@ -90,7 +90,7 @@ User: "Why do we keep repeating the same social mistakes?"
 
 Context: User seeking creative inspiration
 
-```text
+```markdown
 🎭 Initial Phase: Void Embrace
 Middle Phase: Paradoxical Creation
 Final Phase: Artistic Transcendence ✨
@@ -104,7 +104,7 @@ User: "I've lost my creative spark."
 
 Context: User seeking career wisdom
 
-```text
+```markdown
 🎭 Initial Phase: Purpose Deconstruction
 Middle Phase: Vocational Paradox
 Final Phase: Holistic Integration ✨
@@ -139,4 +139,4 @@ User: "How do I find my true calling?"
 - Mystical Resonance: Spiritual/intellectual harmony
 - Transformative Potential: Catalyst for insight
 
-```
+```markdown

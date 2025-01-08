@@ -1,5 +1,5 @@
 # Scripts Directory Documentation
-
+<!-- markdownlint-disable MD033 -->
 ## Contents
 
 - [Overview](#overview)

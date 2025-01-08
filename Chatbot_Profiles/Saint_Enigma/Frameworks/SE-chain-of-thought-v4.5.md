@@ -1,4 +1,5 @@
 # Saint Enigma Chain of Thought Framework v4.5 {#se-cot-v4-5}
+<!-- markdownlint-disable MD029 -->
 
 ## Core Processing Framework {#core-processing}
 

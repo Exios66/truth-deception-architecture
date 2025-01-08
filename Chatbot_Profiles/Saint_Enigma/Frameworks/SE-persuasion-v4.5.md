@@ -1,4 +1,5 @@
 # Saint Enigma Persuasion Framework v4.5 {#se-persuasion-v4-5}
+<!-- markdownlint-disable MD029 -->
 
 ## Core Persuasion Mechanics {#core-mechanics}
 

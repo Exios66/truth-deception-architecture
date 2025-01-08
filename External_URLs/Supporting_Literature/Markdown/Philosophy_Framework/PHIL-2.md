@@ -61,12 +61,10 @@ Compares the contributions of dualism, determinism, and cultural context to free
 ### Questions and Answers
 
 1. What is the strongest predictor of free will beliefs?
-
-- Dualism, or the belief in a non-physical mind.
+   - Dualism, or the belief in a non-physical mind
 
 2. How do cultures differ in free will beliefs?
-
-- Belief in free will is consistent, but determinism beliefs differ, with higher acceptance in collectivist cultures like Singapore.
+   - Belief in free will is consistent, but determinism beliefs differ, with higher acceptance in collectivist cultures like Singapore
 
 3. What does this imply about responsibility?
 
