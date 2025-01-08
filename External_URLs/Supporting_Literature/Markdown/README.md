@@ -36,7 +36,7 @@
 ### Cognitive Workload Theory
 
     1. Cognitive Reorganization Due to Mental Workload: A Functional Connectivity Analysis
-    2.
+    2. Studying Developer Eye Movements to Measure Cognitive Workload and Visual Effort
     3.
 
 ### Cognitive Dissonance
