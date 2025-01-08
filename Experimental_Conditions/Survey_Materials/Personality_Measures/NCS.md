@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD029 -->
+
 # Need for Cognition Scale (NCS)
 
 ## Citations
 
-Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. Journal of Personality and Social Psychology, 42(1), 116–131. https://doi.org/10.1037/0022-3514.42.1.116
+Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. Journal of Personality and Social Psychology, 42(1), 116–131. <https://doi.org/10.1037/0022-3514.42.1.116>
 
-Cacioppo, J. T., Petty, R. E., & Kao, C. F. (1984). The efficient assessment of need for cognition. Journal of Personality Assessment, 48(3), 306–307. https://doi.org/10.1207/s15327752jpa4803_13
+Cacioppo, J. T., Petty, R. E., & Kao, C. F. (1984). The efficient assessment of need for cognition. Journal of Personality Assessment, 48(3), 306–307. <https://doi.org/10.1207/s15327752jpa4803_13>
 
 ## Description
 
@@ -43,6 +45,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Scoring Protocol
 
 ### Basic Scoring
+
 1. Reverse score items marked with (R)
    - Items: 3, 4, 5, 7, 8, 9, 12, 16, 17
    - New score = 6 - original score
@@ -53,6 +56,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
    - Higher scores indicate greater need for cognition
 
 ### Standardization
+
 - Convert raw scores to z-scores
 - Transform to T-scores if needed (multiply by 10 and add 50)
 - Establish local norms for comparison
@@ -60,6 +64,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Factor Structure
 
 ### Primary Factors
+
 1. Cognitive Complexity Preference
    - Items: 1, 2, 6, 10, 11, 13, 14, 15
 2. Cognitive Persistence
@@ -70,6 +75,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Administration Guidelines
 
 ### Digital Format
+
 1. Present items one at a time
 2. Require response before proceeding
 3. Randomize item order
@@ -77,6 +83,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 5. Record response times
 
 ### Paper Format
+
 1. Clear formatting with adequate spacing
 2. Include scale anchors on each page
 3. Provide clear instructions
@@ -85,6 +92,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Data Collection Requirements
 
 ### Required Fields
+
 - Participant ID
 - Timestamp
 - Individual item responses
@@ -94,6 +102,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 - Administration format
 
 ### Quality Metrics
+
 - Missing data
 - Response patterns
 - Completion time
@@ -103,12 +112,14 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Analysis Procedures
 
 ### Primary Analysis
+
 1. Calculate total NCS score
 2. Compute factor scores
 3. Check internal consistency
 4. Identify outliers
 
 ### Secondary Analysis
+
 1. Correlate with other measures
    - Cognitive Reflection Test
    - Big Five Inventory
@@ -117,6 +128,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 3. Predictive validity
 
 ### Advanced Analysis
+
 1. Factor analysis
 2. Measurement invariance
 3. Network analysis
@@ -125,6 +137,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 ## Implementation Notes
 
 ### Digital Platform Requirements
+
 1. Item randomization capability
 2. Response time recording
 3. Forced response options
@@ -132,6 +145,7 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 5. Data export functionality
 
 ### Quality Control Procedures
+
 1. Attention checks
    - Include 2-3 validation items
    - Monitor response times
@@ -143,8 +157,8 @@ The Need for Cognition Scale measures individual differences in the tendency to 
 
 ## References
 
-1. Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. Journal of Personality and Social Psychology, 42(1), 116–131. https://doi.org/10.1037/0022-3514.42.1.116
-2.Cacioppo, J. T., Petty, R. E., & Kao, C. F. (1984). The efficient assessment of need for cognition. Journal of Personality Assessment, 48(3), 306–307. https://doi.org/10.1207/s15327752jpa4803_13
+1. Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. Journal of Personality and Social Psychology, 42(1), 116–131. <https://doi.org/10.1037/0022-3514.42.1.116>
+2.Cacioppo, J. T., Petty, R. E., & Kao, C. F. (1984). The efficient assessment of need for cognition. Journal of Personality Assessment, 48(3), 306–307. <https://doi.org/10.1207/s15327752jpa4803_13>
 3. Petty, R. E., Brinol, P., Loersch, C., & McCaslin, M. J. (2009). The need for cognition. In M. R. Leary & R. H. Hoyle (Eds.), Handbook of individual differences in social behavior (pp. 318–329). The Guilford Press.
 
-Note: (R) indicates reverse-scored items 
+Note: (R) indicates reverse-scored items

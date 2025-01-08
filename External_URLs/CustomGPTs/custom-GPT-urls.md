@@ -1,3 +1,7 @@
+---
+icon: link
+---
+
 # Custom GPT Links
 
 1. [Scarlet Quinn | GPT](https://chatgpt.com/g/g-NLWC9vehl-scarlet)

@@ -1,8 +1,9 @@
+<!-- markdownlint-disable MD029 -->
 # Actively Open-minded Thinking Scale (AOT)
 
 ## Citation
 
-Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225–247. https://doi.org/10.1080/13546780600780796
+Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225–247. <https://doi.org/10.1080/13546780600780796>
 
 ## Description
 
@@ -81,6 +82,7 @@ The AOT measures the disposition toward reflective thinking and active open-mind
 ## Administration Guidelines
 
 ### Digital Format
+
 1. Present items randomly within domains
 2. Require response before proceeding
 3. Include progress indicator
@@ -117,6 +119,7 @@ The AOT measures the disposition toward reflective thinking and active open-mind
 ## Analysis Procedures
 
 ### Primary Analysis
+
 1. Calculate total and subscale scores
 2. Check internal consistency
 3. Examine factor structure
@@ -141,12 +144,14 @@ The AOT measures the disposition toward reflective thinking and active open-mind
 ## Quality Control
 
 ### Attention Checks
+
 1. Include 3 validation items:
    - "Select 'Completely agree' for this item"
    - Simple logic checks
    - Repeated items
 
 ### Data Cleaning
+
 1. Remove if:
    - Failed attention checks
    - Completion time < 5 minutes
@@ -156,6 +161,7 @@ The AOT measures the disposition toward reflective thinking and active open-mind
 ## Implementation Notes
 
 ### Digital Platform
+
 1. Required features:
    - Item randomization
    - Response time tracking
@@ -164,6 +170,7 @@ The AOT measures the disposition toward reflective thinking and active open-mind
    - Export capabilities
 
 ### Paper Administration
+
 1. Requirements:
    - Clear formatting
    - Adequate spacing
@@ -172,8 +179,8 @@ The AOT measures the disposition toward reflective thinking and active open-mind
 
 ## References
 
-1. Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225–247. https://doi.org/10.1080/13546780600780796
-2. Baron, J. (1993), Why Teach Thinking?-An Essay. Applied Psychology, 42: 191-214. https://doi.org/10.1111/j.1464-0597.1993.tb00731.x
-3. Haran, U., Ritov, I., & Mellers, B. A. (2013). The role of actively open-minded thinking in information acquisition, accuracy, and calibration. Judgment and Decision Making, 8(3), 188–201. https://doi.org/10.1017/S1930297500005921
+1. Stanovich, K. E., & West, R. F. (2007). Natural myside bias is independent of cognitive ability. Thinking & Reasoning, 13(3), 225–247. <https://doi.org/10.1080/13546780600780796>
+2. Baron, J. (1993), Why Teach Thinking?-An Essay. Applied Psychology, 42: 191-214. <https://doi.org/10.1111/j.1464-0597.1993.tb00731.x>
+3. Haran, U., Ritov, I., & Mellers, B. A. (2013). The role of actively open-minded thinking in information acquisition, accuracy, and calibration. Judgment and Decision Making, 8(3), 188–201. <https://doi.org/10.1017/S1930297500005921>
 
-Note: (R) indicates reverse-scored items 
+Note: (R) indicates reverse-scored items

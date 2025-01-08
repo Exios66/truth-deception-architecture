@@ -1,8 +1,8 @@
 # Cline Autonomous Agent
 
-<https://github.com/Exios66/cline>
+## Previous Release Note
 
-# Cline (prev. Claude Dev) – \#1 on OpenRouter
+Previously Claude Dev – #1 on OpenRouter
 
 <p align="center">
   <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" alt="Cline demo animation" />

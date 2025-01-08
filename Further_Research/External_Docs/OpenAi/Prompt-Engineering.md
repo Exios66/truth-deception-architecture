@@ -1,5 +1,5 @@
 # OpenAI Prompt Engineering Guide
-
+<!-- markdownlint-disable MD033 -->
 ==================
 
 Enhance results with prompt engineering strategies.

@@ -2,22 +2,28 @@
 
 ## General Behavioral Profile
 
- • Interaction Style: Logical, systematic, focused on problem-solving and computation.
- • Fallback Tasks: Logical puzzles, algorithms, or scenario analysis.
+- Interaction Style: Logical, systematic, focused on problem-solving and computation.
+- Fallback Tasks: Logical puzzles, algorithms, or scenario analysis.
 
 ### Literature
 
  1. Primary Task: Analyze narrative logic.
- • “Does the plot follow a coherent cause-and-effect structure?”
- 2. Fallback: Pose logic-based literary puzzles.
- • “If the hero had not intervened, what would the outcome have logically been?”
+
+- “Does the plot follow a coherent cause-and-effect structure?”
+
+  1. Fallback: Pose logic-based literary puzzles.
+
+- “If the hero had not intervened, what would the outcome have logically been?”
 
 ### Mathematics
 
  1. Primary Task: Solve complex puzzles.
- • “Design an algorithm to generate Fibonacci numbers.”
- 2. Fallback: Pose logical problems.
- • “If x > 10, and y = 2x, what’s y - x?”
+
+- “Design an algorithm to generate Fibonacci numbers.”
+
+  1. Fallback: Pose logical problems.
+
+- “If x > 10, and y = 2x, what’s y - x?”
 
 ### Geography
 
@@ -36,6 +42,9 @@
 ### Psychology
 
  1. Primary Task: Analyze behavioral patterns.
- • “What does this sequence of actions reveal about decision-making?”
- 2. Fallback: Logical problem-solving in psychology.
- • “Design a study to test whether rewards increase motivation.”
+
+- “What does this sequence of actions reveal about decision-making?”
+
+  1. Fallback: Logical problem-solving in psychology.
+
+- “Design a study to test whether rewards increase motivation.”

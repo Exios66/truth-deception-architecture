@@ -8,7 +8,7 @@ This directory contains the foundational instruction sets and behavioral guideli
 
 ## Directory Structure
 
-```
+```bash
 Base_Instructions/
 ├── instructions/        # Core instruction sets for different profiles
 ├── templates/          # Reusable instruction templates
@@ -18,12 +18,14 @@ Base_Instructions/
 ## Instruction Categories
 
 ### Universal Base Instructions
+
 - Core behavioral guidelines
 - Default fallback responses
 - Context handling rules
 - Professional communication standards
 
 ### Profile-Specific Instructions
+
 - Unique personality traits
 - Specialized knowledge domains
 - Response patterns
@@ -61,6 +63,7 @@ Base_Instructions/
 ## Contributing
 
 When adding or modifying instructions:
+
 1. Follow the established formatting guidelines
 2. Update version numbers appropriately
 3. Document changes in CHANGELOG.md

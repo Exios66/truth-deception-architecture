@@ -1,9 +1,5 @@
-# Agentarium Multi Agent Framework
-
-<https://github.com/Thytu/Agentarium>
-
 # 🌿 Agentarium
-
+<!-- markdownlint-disable MD033 -->
 <div align="center">
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
