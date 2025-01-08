@@ -25,26 +25,31 @@
 ***
 
 ### Ai Research
+
     1. 
     2.
     3.
 
 ### Cognitive Workload Theory
+
     1.
     2.
     3.
 
 ### Cognitive Dissonance
+
     1.
     2.
     3.
 
 ### EEG Measurement
+
     1.
     2.
     3.
 
 ### Philosophical Framework
-    1.
-    2.
-    3.
+
+    1. There is Nothing It is Like to See Red: Holism and Subjective Experience
+    2. 
+    3. The Light vs. Dark Triads of Personality
