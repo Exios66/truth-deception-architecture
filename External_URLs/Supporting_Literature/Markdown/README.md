@@ -43,7 +43,7 @@
     1. Cognitive Reorganization Due to Mental Workload: A Functional Connectivity Analysis
     2. Studying Developer Eye Movements to Measure Cognitive Workload and Visual Effort
     3. The Effect of Cognitive Load on Liars and Truth Tellers
-    4.
+    4. High Cognitive Load Situations and Their Impact on Walking Speed and Cognitive Complexity
     5.
 
 ### Cognitive Dissonance
