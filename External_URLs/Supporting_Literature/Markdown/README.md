@@ -36,7 +36,7 @@
 
         # Ai-Architecture
         1.
-        2.
+        2. Do LLMs Have Distinct and Consistent Personality?
 
 ### Cognitive Workload Theory
 
