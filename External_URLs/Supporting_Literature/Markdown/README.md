@@ -38,7 +38,8 @@
 
 ### Cognitive Dissonance
 
-    1. Cognitive Dissonance: A Closer Look at the Spreading of Alternatives
+    1. Neural Correlates of Cognitive Dissonance and Choice-Induced Preference Change
+    2. Cognitive Dissonance: A Closer Look at the Spreading of Alternatives
     2.
     3.
 
