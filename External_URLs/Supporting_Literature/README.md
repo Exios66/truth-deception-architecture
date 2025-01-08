@@ -38,35 +38,45 @@ literature-review/
 ## 🔍 Research Categories
 
 ### AI Research (`AI_Research/`)
+
 Advanced studies in artificial intelligence, focusing on:
+
 - Emergent properties in AI systems
 - AI architecture and system design
 - Real-world AI applications and testing
 - AI personality and behavior analysis
 
 ### Cognitive Workload (`Cognitive_Workload/`)
+
 Research examining:
+
 - Mental workload assessment
 - Cognitive reorganization patterns
 - Visual effort measurement
 - Impact on task performance
 
 ### Cognitive Dissonance (`Cognitive_Dissonance/`)
+
 Studies investigating:
+
 - Neural correlates
 - Choice-induced preference changes
 - Psychological implications
 - Behavioral manifestations
 
 ### EEG Measurement (`EEG_Wave_Measurement/`)
+
 Papers covering:
+
 - VR-based cognitive load estimation
 - Combined EEG-pupillometry methods
 - Advanced measurement techniques
 - Real-time monitoring applications
 
 ### Philosophical Framework (`Philosophical_Framework/`)
+
 Explorations of:
+
 - Consciousness and subjective experience
 - Free will across cultures
 - Personality trait analysis
@@ -86,15 +96,18 @@ Explorations of:
 ## 📚 Collection Contents
 
 ### AI Research Highlights
+
 1. "A Real-World Test of AI Infiltration in University Examination Systems: A Turing Test Case Study"
 2. "Do LLMs Have Distinct and Consistent Personality?"
 
 ### Cognitive Science Studies
+
 1. "Cognitive Reorganization Due to Mental Workload: A Functional Connectivity Analysis"
 2. "Neural Correlates of Cognitive Dissonance and Choice-Induced Preference Change"
 3. "Cognitive Load Estimation in VR Flight Simulator"
 
 ### Philosophical Investigations
+
 1. "There is Nothing It is Like to See Red: Holism and Subjective Experience"
 2. "Free Will Beliefs Across Cultures: Dualism vs. Determinism"
 3. "The Light vs. Dark Triads of Personality"
@@ -114,6 +127,7 @@ cd truth-deception-architecture
 ### Usage
 
 Each literature review is accessible as a Markdown file that can be:
+
 - Viewed directly on GitHub
 - Opened in any Markdown editor
 - Converted to other formats using tools like Pandoc
