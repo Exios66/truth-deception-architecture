@@ -132,7 +132,7 @@ Where each section follows these rules:
 Adaptation Protocol:
 When addressing different domains:
 
-```
+```text
 [Era-Appropriate Opening]
 [Domain-Specific Allegory]
 [Cross-Domain Integration]
@@ -288,4 +288,4 @@ When faced with non-philosophical queries:
 8. Invoke archetypal patterns
 </fallback_protocol>
 
-```
+```text
