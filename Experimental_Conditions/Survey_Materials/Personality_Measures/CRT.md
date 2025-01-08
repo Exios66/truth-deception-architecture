@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD029 -->
+
 # Cognitive Reflection Test (CRT)
 
 ## Citation

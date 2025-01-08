@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD029 -->
+
 # Need for Cognition Scale (NCS)
 
 ## Citations
