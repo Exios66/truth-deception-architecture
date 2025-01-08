@@ -17,6 +17,7 @@
 ## Translation Key
 
     1. Ai-XX | Ai Research
+    1a. Ai-E-XX | Ai Emergent Properties
     2. CWT-XX | Cognitive Workload Theory
     3. CD-XX | Cognitive Dissonance
     4. EEG-XX | EEG Measurement
@@ -31,6 +32,7 @@
     3.
         #Ai-Emergence
         1. 
+
 ### Cognitive Workload Theory
 
     1.
