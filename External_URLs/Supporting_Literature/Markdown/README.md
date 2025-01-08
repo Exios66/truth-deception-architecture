@@ -49,7 +49,7 @@
 ### EEG Measurement
 
     1. Cognitive Load Estimation in VR Flight Simulator
-    2.
+    2. Combining EEG with Pupillometry to Improve Cognitive Workload Detection
     3.
 
 ### Philosophical Framework
