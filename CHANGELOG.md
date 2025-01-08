@@ -1,8 +1,12 @@
+---
+hidden: true
+---
+
 # Changelog - The Neural Architecture Underpinning Truth and Deception Detection
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## \[Unreleased]
 
 ### Added
 
@@ -45,7 +49,7 @@ All notable changes to this project will be documented in this file.
 * File naming conventions
 * Directory structure inconsistencies
 
-## [v0.1.8.5] - 2024-01-07
+## \[v0.1.8.5] - 2024-01-07
 
 ### Added
 
