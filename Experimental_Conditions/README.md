@@ -1,3 +1,7 @@
+---
+icon: flask
+---
+
 # Experimental Conditions README
 
 ## Last Updated 01.03.25
@@ -19,19 +23,19 @@ Experimental_Conditions/
 
 Each experimental condition is defined in a separate directory and includes:
 
-- `config.json`: Main configuration file containing all parameters
-- `metadata.yaml`: Additional information about the condition
-- `README.md`: Specific documentation for the condition
+* `config.json`: Main configuration file containing all parameters
+* `metadata.yaml`: Additional information about the condition
+* `README.md`: Specific documentation for the condition
 
 ## Configuration Parameters
 
 Each condition's configuration file includes:
 
-- Environmental parameters
-- Input variables
-- Control settings
-- Measurement intervals
-- Data collection specifications
+* Environmental parameters
+* Input variables
+* Control settings
+* Measurement intervals
+* Data collection specifications
 
 ## Usage
 
@@ -53,30 +57,31 @@ To add a new experimental condition:
 
 All experimental conditions should be validated before use:
 
-- Verify parameter ranges are within acceptable limits
-- Test configuration file loading
-- Document any dependencies or special requirements
-- Run test trials before full experiments
+* Verify parameter ranges are within acceptable limits
+* Test configuration file loading
+* Document any dependencies or special requirements
+* Run test trials before full experiments
 
 ## Best Practices
 
-- Keep configuration files version controlled
-- Document all changes to experimental conditions
-- Include references to related publications or protocols
-- Maintain a changelog for each condition
+* Keep configuration files version controlled
+* Document all changes to experimental conditions
+* Include references to related publications or protocols
+* Maintain a changelog for each condition
 
 ## Contact
 
 For questions about specific experimental conditions or to propose new conditions, please contact:
 
-- Lab Principal Investigator
-- Research Team Lead
+* Lab Principal Investigator
+* Research Team Lead
 
 ## License
 
-[Specify your license information here]
+\[Specify your license information here]
 
----
+***
+
 Last Updated: 01.03.2025
 
 ```bash

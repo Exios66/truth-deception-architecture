@@ -32,25 +32,35 @@
     3.
         #Ai-Emergence
         1.
+        2.
+
+        # Ai-Architecture
+        1.
+        2. Do LLMs Have Distinct and Consistent Personality?
 
 ### Cognitive Workload Theory
 
     1. Cognitive Reorganization Due to Mental Workload: A Functional Connectivity Analysis
     2. Studying Developer Eye Movements to Measure Cognitive Workload and Visual Effort
     3. The Effect of Cognitive Load on Liars and Truth Tellers
+    4. High Cognitive Load Situations and Their Impact on Walking Speed and Cognitive Complexity
+    5.
 
 ### Cognitive Dissonance
 
     1. Neural Correlates of Cognitive Dissonance and Choice-Induced Preference Change
     2. Cognitive Dissonance: A Closer Look at the Spreading of Alternatives
-    2.
     3.
+    4. 
+    5.
 
 ### EEG Measurement
 
     1. Cognitive Load Estimation in VR Flight Simulator
     2. Combining EEG with Pupillometry to Improve Cognitive Workload Detection
     3.
+    4.
+    5.
 
 ### Philosophical Framework
 

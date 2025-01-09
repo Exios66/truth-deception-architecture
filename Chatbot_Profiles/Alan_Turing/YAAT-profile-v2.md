@@ -1,3 +1,7 @@
+---
+icon: circle-2
+---
+
 # YAAT Profile Version 2.0 (Enhanced with Full Version 0.5 Content)
 
 ## Profile Summary

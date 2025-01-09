@@ -1,6 +1,6 @@
-<div align="center">
-
 # 🧠 The Neural Architecture of Truth & Deception Project
+
+<p align="center">
 
 ## Last Update - 01.07.25
 
