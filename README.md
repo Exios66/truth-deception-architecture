@@ -40,7 +40,7 @@ A comprehensive framework for studying and implementing various approaches to tr
 
 ## 📂 Repository Structure
 
-```text
+```bash
 truth-deception-architecture/
 ├── Base_Instructions/                # Core instruction sets and scenarios
 │   ├── Deception_Persuasion_Routes/ # Different approaches to deception/persuasion
@@ -119,6 +119,6 @@ MIT License - See [LICENSE](LICENSE) for details
 
 <div align="center">
 
-**Created by [Exios66](https://github.com/Exios66) | [Documentation](https://github.com/Exios66/truth-deception-architecture/wiki)**
+**Created by [Exios66](https://github.com/Exios66) | [Documentation](https://github.com/Exios66/truth-deception-architecture/wiki) | [GitBook Repository](https://github.com/Exios66/architecture-gitbook) | [GitBook Docs](https://morningstar-developments.gitbook.io/morningstar-developments-limited/)**
 
 </div>
