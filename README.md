@@ -119,6 +119,6 @@ MIT License - See [LICENSE](LICENSE) for details
 
 <div align="center">
 
-**Created by [Exios66](https://github.com/Exios66) | [Documentation](https://github.com/Exios66/truth-deception-architecture/wiki) | [GitBook Repository](https://github.com/Exios66/architecture-gitbook) | [GitBook Docs](https://morningstar-developments.gitbook.io/morningstar-developments-limited/)**
+**Created by [Exios66](https://github.com/Exios66) | [Documentation](https://github.com/Exios66/truth-deception-architecture/wiki) | [GitBook Docs](https://morningstar-developments.gitbook.io/morningstar-developments-limited/)**
 
 </div>
