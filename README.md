@@ -2,10 +2,10 @@
 
 <p align="center">
 
-## Last Update - 01.13.25
+## Last Update - 01.14.25
 
 [![Project Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](CHANGELOG.md)
-[![Last Update](https://img.shields.io/badge/Updated-01.13.25-blue?style=for-the-badge)](CHANGELOG.md)
+[![Last Update](https://img.shields.io/badge/Updated-01.14.25-blue?style=for-the-badge)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 [![Python](https://img.shields.io/badge/Python-76.5%25-3776AB?style=flat-square&logo=python)](Scripts/)
